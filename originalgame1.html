@@ -1,7 +1,28 @@
 <DOCTYPE html>
 <html>
 <head>
+  <title>Original game 1 Ashton and Braedyn Coding</title>
+  <style>
+    #board {
+      border: 1px solid black;
+      background-color: cyan;
+      height: 350px;
+      width: 650px;
+    }
+  </style>
 </head>
 <body>
+  <input type="button" value="Play" onclick="startGame()";/>
+  <div id="board">
+  </div>
+  <script>
+    function startGame() {
+      gameLoop();
+    }
+    function gameLoop() {
+      alert("Game over!");
+      setTimeout(gameLoop, 3000);
+    }
+  </script>
 </body>
 </html>
