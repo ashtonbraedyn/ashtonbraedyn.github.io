@@ -1,0 +1,2140 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://www.coolmathgames.com/0-defly-io -->
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Load MBOX First -->
+    <script async="" src="./Defly.io - Play it now at CoolmathGames.com_files/apstag.js.download"></script><script src="./Defly.io - Play it now at CoolmathGames.com_files/client.js.download" async="" type="text/javascript"></script><script async="" src="./Defly.io - Play it now at CoolmathGames.com_files/profitwell.js.download"></script><script async="" src="./Defly.io - Play it now at CoolmathGames.com_files/analytics.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/mbox.js.download"></script><style>.mboxDefault { visibility:hidden; }</style><script src="./Defly.io - Play it now at CoolmathGames.com_files/target.js.download"></script><script src="./Defly.io - Play it now at CoolmathGames.com_files/ajax"></script><script>
+        var signupPromoTop = 'Act Now to Play Ad-Free';
+        var signupPromoBottom = 'Skip All Ads, Join Now';
+</script>
+        
+<link rel="canonical" href="https://www.coolmathgames.com/0-defly-io">
+<meta name="keywords" content="coolmaths, coolmath, math, maths, game, games, free, online, fun, coolmaths, coolmath, math, maths, game, games, free, online, fun, defly">
+<meta name="description" content="Defly.io at Cool Math Games: Hop in your helicopter and take territory from other players. Choose how you want to specialize your Defly copter. Build a base, control territory, and conquer the map!">
+<meta property="og:description" content="Defly.io at Cool Math Games: Hop in your helicopter and take territory from other players. Choose how you want to specialize your Defly copter. Build a base, control territory, and conquer the map!">
+<meta property="og:image" content="https://www.coolmathgames.com/sites/default/files/defly-io_0.png">
+<meta property="og:image:alt" content="Defly.io Game Screenshot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Defly.io">
+<meta property="og:url" content="//www.coolmathgames.com/0-defly-io">
+<link rel="shortcut icon" href="https://www.coolmathgames.com/themes/custom/cmatgame/favicon.ico" type="image/vnd.microsoft.icon">
+<script type="text/javascript">
+	  var valid_test_environment = false;
+      function getCookie(key) {
+        var keyValue = document.cookie.match("(^|;) ?" + key + "=([^;]*)(;|$)");
+        return keyValue ? keyValue[2] : null;
+      }
+      function setCookie1(cname, cvalue, hours) {
+        var d = new Date();
+        d.setTime(d.getTime() + (hours*60*60*1000));
+        var expires = 'expires='+ d.toUTCString();
+        document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
+      }
+      function getParameterByName(name) {
+        var regexS = '[\?&]' + name + '=([^&#]*)';
+        var regex = new RegExp(regexS);
+        var results = regex.exec(location.href);
+        if (results === null) {
+          return '';
+        }
+        return decodeURIComponent(results[1].replace(/\+/g, ' '));
+      }
+      var cmg_gdpr_check = getCookie('GDPR');
+      
+      var cmg_school_whitelisted = getCookie('cmg_schwl');
+      if(cmg_school_whitelisted === null && (typeof valid_test_environment !== 'undefined' && valid_test_environment) && typeof myDebugAction === 'function') {
+        cmg_school_whitelisted = myDebugAction();
+      }
+
+      var freeTrialUser = false;
+      var date = new Date();
+      var hours = date.getHours();
+      var currentMonth = date.getMonth();
+      var currentYear = date.getFullYear();
+      var day = date.getDay();
+      var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      var currentMonthName = month_names_short[currentMonth];
+      var schoolStartHour = 7;
+      var schoolEndHour = 15;
+      var cmg_no_ads_debug = false;
+      //var cmg_no_ads = false;
+      if(typeof subscriberLeg === 'undefined' || subscriberLeg === null || subscriberLeg === '') {
+        subscriberLeg = 'Default Leg';
+        if(typeof myDebugAction === 'function' && (typeof valid_test_environment !== 'undefined' && valid_test_environment) ) {
+          myDebugAction();
+        }
+      }
+      if(typeof freeGameLimit === 'undefined' || freeGameLimit === null) {
+        freeGameLimit = 0;
+      }
+      if(typeof cmg_no_ads === 'undefined' && cmg_no_ads_debug && (typeof valid_test_environment !== 'undefined' && valid_test_environment)) {
+        cmg_no_ads = true;
+      }
+      var schoolHours = false;
+      var schoolHolidays = ["Jul 4","Sep 3","Nov 22","Nov 23"];
+      var schoolHoliday = false;
+
+      //TODO -- Summer vacation dates
+      var summerVacationStart = new Date('07/1/'+currentYear);
+      var summerVacationEnd = new Date('07/10/'+currentYear);
+      
+      var today_month_day = currentMonthName + ' ' + date.getDate();
+      if(schoolHolidays.indexOf(today_month_day) !== -1 || (date >= summerVacationStart && date <= summerVacationEnd) || day === 6 || day == 0) {
+        schoolHoliday = true;
+      }
+      var currentMonthName = month_names_short[currentMonth];
+      if(!schoolHoliday && hours >= schoolStartHour && hours <= schoolEndHour) {
+        schoolHours = true;
+      }
+      var targetStateUser = false;
+      if(typeof targeted_state !== 'undefined' && targeted_state !== null && targeted_state) {
+        targetStateUser = true;
+      }
+      if(typeof watchAdtoUnlockGame == 'undefined') {
+        watchAdtoUnlockGame = false;
+      }
+      var cmg_active_anonymous_user = getCookie('cmg_active_anonymous_user');
+      var cmatgame_editor = getCookie('cmg_editor');
+      if(typeof cmg_active_anonymous_user !== 'undefined' && cmg_active_anonymous_user !== null) {
+        ////console.log('We have an active school hours session');
+      }
+      //Display Ads to anonymous users only if the user is not from a targeted state or it is school hours. 
+      //   Do not display ads for targeted state user during non school hours, but free game play is restricted 
+      if(!schoolHours && targetStateUser && cmg_active_anonymous_user === null && cmatgame_editor === null) {
+        freeTrialUser = true;
+     } 
+   </script>
+<script type="text/javascript">
+	   function checkIfFlashIsEnabled() {
+          var ie_flash;
+          try { ie_flash = (window.ActiveXObject && (new ActiveXObject("ShockwaveFlash.ShockwaveFlash")) !== false) } catch(err) { ie_flash = false; }
+          var _flash_installed = ((typeof navigator.plugins != "undefined" && typeof navigator.plugins["Shockwave Flash"] == "object") || ie_flash);
+          if(typeof _flash_installed == "undefined" || !_flash_installed) {
+            return false;
+          } else {
+            return true;
+          }
+       } 
+       function trackEvent(category, action, label, noninteraction) {
+          if(typeof __gaTracker === 'undefined')
+            return;
+            noninteraction = noninteraction || 0;
+           //console.log('Tracked: ' + category + ' ' + action + ' ' + label + ' noninteraction: ' + noninteraction);
+          __gaTracker('send', {
+              'hitType': 'event',          // Required.
+              'eventCategory': category,   // Required.
+              'eventAction': action,      // Required.
+              'eventLabel': label,
+              'eventValue': 0,
+              'nonInteraction': noninteraction
+          });
+      }
+      function trackSocial(network,action,target) {
+          if(typeof __gaTracker === 'undefined')
+            return;
+          __gaTracker('send', {
+              'hitType': 'social',          // Required.
+              'socialNetwork': network,
+              'socialAction': action,
+              'socialTarget': target
+          });
+      }
+	  </script>
+<script src="./Defly.io - Play it now at CoolmathGames.com_files/jquery.min.js.download"></script>
+<script type="text/javascript">
+		  gamePage = true;
+          quizPage = false;
+		  gameType = 'game_html5';
+		  mobile_ga_game_type = 'Desktop'; 
+          var ad_refresh_timer_interval = 60000; 
+          var ad_refresh_event_interval = 30000;
+		  </script>
+<script type="text/javascript">
+		  var hide_preroll_ads = false; 
+          var preroll_ads_timer = 15;
+		  
+          cmatgame_subscriber = getCookie("cmg_sx");
+          //check if school is whitelisted
+          if(cmg_school_whitelisted !== null && getCookie("cmg_schwl") !== null) {
+            cmg_school_whitelisted = getCookie("cmg_schwl");
+            cmatgame_subscriber = getCookie("cmg_schwl");
+          } else if(cmg_school_whitelisted === null && typeof cmg_no_ads_debug !== "undefined" && cmg_no_ads_debug) {
+           //console.log("KY school hours");
+           cmatgame_subscriber = cmg_no_ads_debug;
+          }
+          if(cmg_gdpr_check !== null) {
+            var cmg_gdpr_all_check = getCookie("GDPR_All");  //GDPR_All cookie is set when user selects accept all cookies in the GDPR overlay
+            var cmg_gdpr_first_check = getCookie("GDPR_First");
+            var cmg_gdpr_reject_check = getCookie("GDPR_Reject");
+            if(cmg_gdpr_all_check == null && (cmg_gdpr_first_check != null || cmg_gdpr_reject_check !=null)) {  //user either accepted only first party cookies or rejected all cookies so do not display ads
+              cmatgame_subscriber = getCookie("GDPR");
+            }
+          }
+          isRemoveAdSwfJWPLayer = false;
+          jQuery(document).ready(function() {
+          if(jQuery("#adblockdiv").length){
+            if(typeof __gaTracker !== "undefined") {
+              __gaTracker("send", {
+                "hitType": "event",          // Required.
+                "eventCategory": "Page-level-ad-blocker2",   // Required.
+                "eventAction": "AdBlockerNotDetected",      // Required.
+                "eventLabel": document.title,
+                "eventValue": 1,
+                "nonInteraction": 1
+              });
+            }
+          } else {
+           if(typeof __gaTracker !== "undefined") {
+             __gaTracker("send", {
+              "hitType": "event",          // Required.
+              "eventCategory": "Page-level-ad-blocker2",   // Required.
+              "eventAction": "AdBlockerDetected",      // Required.
+              "eventLabel": document.title,
+              "eventValue": 1,
+              "nonInteraction": 1
+            });
+           }
+         } 
+		 function removeAdSwfJWPLayer() {}
+         var isChrome = navigator.userAgent.toLowerCase().indexOf("chrome") > -1;
+         if(!jQuery(".adtxt").is(":visible") && isChrome) {
+           removeAdSwfJWPLayer();
+         } 
+        });         
+        </script>
+<script type="text/javascript">   
+           if((typeof cmatgame_subscriber === "undefined" || cmatgame_subscriber === "" || cmatgame_subscriber === null || typeof freeTrialUser === "undefined"  ) && !freeTrialUser) {
+
+               var tyche = { 
+               mode: "tyche", 
+               config: "//config.playwire.com/1023174/v2/websites/71134/banner.json"
+                };
+               var pwScript = document.createElement("script");
+               pwScript.type = "text/javascript";
+               pwScript.src = "//cdn.intergi.com/hera/tyche.js";
+               pwScript.async = true;
+               document.getElementsByTagName("head")[0].appendChild(pwScript);
+            }
+          </script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/tyche.js.download" async=""></script>
+<script type="text/javascript">
+          var $elements_with_events = jQuery('.js-track');
+          if($elements_with_events.length > 0) {
+            $elements_with_events.each(function(){
+            var action = typeof jQuery(this).data('action') !== 'undefined' ? jQuery(this).data('action') : 'click';
+            jQuery(this).on(action, function(){
+            var category, label;
+            category = typeof jQuery(this).data('category') !== 'undefined' ? jQuery(this).data('category') : ( jQuery(this).text() || 'Unassigned' ); 
+            label = typeof jQuery(this).data('label') !== 'undefined' ? jQuery(this).data('label') :  ( jQuery(this).attr('class') || 'Unassigned' );
+            trackEvent(category,'click',label);
+           });
+         });
+        }            
+       </script>
+
+      <title>Defly.io - Play it now at CoolmathGames.com</title>
+      <link rel="stylesheet" media="all" href="./Defly.io - Play it now at CoolmathGames.com_files/css_JuuCV64an5lrH9NrVLmPf6CHmaKNahOlgkhbTWa2mH8.css">
+<link rel="stylesheet" media="all" href="./Defly.io - Play it now at CoolmathGames.com_files/css_ja1JshgxceyoRGHUFXC_JSRrGVKHFf3V6KAGSAApdFg.css">
+
+        <script type="text/javascript">
+          var userAgent = window.navigator.userAgent.toLowerCase();
+          if(userAgent.indexOf('macintosh') > -1 && 'ontouchend' in document) {  //Mobile
+            if(window.location.hostname.indexOf("d8-dev.coolmathgames") != -1) {  //stage
+              window.location = "https://d8-m-dev.coolmathgames.com" + window.location.pathname;
+            } else if(window.location.hostname.indexOf("www.coolmathgames") != -1) { //prod
+              window.location = "https://m.coolmathgames.com" + window.location.pathname;
+            }
+          }
+        </script>
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/12531","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false},"cmatgame":{"swfembed":"","html5embed":"","isSubscriptionActive":false},"user":{"uid":0,"permissionsHash":"c95aaebf1ca44c4827454d0158fc52317722fd64b54ab1580fd1cfe15525a489"}}</script>
+
+<!--[if lte IE 8]>
+<script src="/sites/default/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="./Defly.io - Play it now at CoolmathGames.com_files/js_afLhJ8SH0nVtp69C7WRy_S9bkM9hPMJt5ulfOtTroaI.js.download"></script>
+<script src="./Defly.io - Play it now at CoolmathGames.com_files/saved_resource"></script>
+<script src="./Defly.io - Play it now at CoolmathGames.com_files/js_jNRPIqES7bBgBhhCQhapMU4nAs5n1NBLP8vLaqisSH4.js.download"></script>
+
+        <script charset="utf-8" src="./Defly.io - Play it now at CoolmathGames.com_files/kinesis.4c21f9cac585e425482a.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/yi.js.download" async=""></script><link rel="preload" href="./Defly.io - Play it now at CoolmathGames.com_files/f.txt" as="script"><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/f.txt"></script><script src="./Defly.io - Play it now at CoolmathGames.com_files/tyche.js(1).download" type="text/javascript"></script><script src="./Defly.io - Play it now at CoolmathGames.com_files/aws-sdk-kinesis.min.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/runtime.51d58db144b39d3ec621.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/npm.babel.356f23672c0d844ebe4d.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/npm.core-js.63798b178bce4dbe3d42.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/npm.lodash.667f423e31223a35ce16.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/npm.intersection-observer.de686478f5ff665335ef.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/npm.process.cbd5a6a0d3b7cd053581.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/npm.webpack.0912f4eca6a8c1d32547.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/lib-main.e1263b74f8c7688e86e6.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/main.261cd482bc1cc595346f.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/lib.0564d23f6e635caa7035.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/gpt.js.download"></script><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/prebid.js.download" async=""></script><style type="text/css" id="pwCSSstyling">.pw-tag { text-align: center; opacity: 1}.pw-oop-tag {width: 1px; height: 1px; line-height:1px; position: fixed}.pw-tag-hidden { visibility: hidden; opacity: 0}.pw-in-article { padding:20px 0; }.pw-in-article_hidden { visibility: hidden; height:0; }.pw-fixed-mobile-leaderboard{ position: fixed;bottom: 0px;left: 50%;width: 320px;height:50px;margin-left:-160px;z-index: 2147483645;text-align: center;padding: 2px 0;background: rgba(0, 0, 0, 0.8);transition: opacity .6s ease-in}.fixed-mobile-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px;position: absolute; top: -22px; right: -1px; z-index: -1;background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}.pw-siderail-left-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px; position: absolute;top: -22px; left: -1px; z-index: -1; background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}.pw-siderail-right-close { cursor: pointer;border-top: 1px solid rgba(0,0,0,0.35);border-left: 1px solid rgba(0,0,0,0.35);border-right: 1px solid rgba(0,0,0,0.35);border-radius: 4px 4px 0 0; padding: 3px 6px 3px 6px; position: absolute;top: -22px; right: -1px; z-index: -1; background-color: rgba(0,0,0,0.55);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.2);color: rgba(255,255,255,0.75);line-height: 1.2;font-size: 12px;font-family: Helvetica,Arial,sans-serif;-webkit-transition: all .5s ease-out;-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;}div[data-pw-desk="leaderboard_atf"].pw-sticky,div[data-pw-mobi="leaderboard_atf"].pw-sticky { z-index: 2147483645;position: fixed; top:0px; left:0px; width: 100%; padding: 20px 0;background: rgba(0,0,0,.2);overflow:hidden;transition: 750ms opacity ease-out;opacity: 1;border-bottom: 1px solid rgba(238, 238, 238, 0.4)}div[data-pw-desk="med_rect_atf"].pw-sticky { z-index: 2147483644;position: fixed; width: 300px; padding: 0; background: transparent;overflow:hidden;transition: 750ms opacity ease-out;opacity: 1;border-bottom: 20px solid #fff;border-top: 20px solid #fff}.pws-sticky:before {z-index: -1;-webkit-filter: blur(34px);width: 100%;height: 100%;content: "";position: absolute;top: 0px;left: 0px;background: rgba(0,0,0,.5);}.pw-sticky-hide{opacity: 0%;}#pw-oop-behind_page { z-index: 0}#pw-oop-above_page { z-index: 2147483647}#pw-oop-top_rail { top: 0px; left:0px}#pw-oop-left_rail { left: 0px; top: 0px; position: fixed;min-width:160px;height:600px}#pw-oop-right_rail { right: 0px; top: 0px; position: fixed;min-width:160px;height:600px}div[data-pw-status="rendered"]{ pointer-events: none; visibility: hidden }div[data-pw-status="loaded"].pw-tps{ display: none }#tycheConsole{ background-color: #fff; border-top: 1px solid;font-family: Arial, Helvetica, sans-serif; font-size: 12px;position: fixed; bottom: 0; width: 100%; padding: 0 2% 2% 2%;z-index: 9999999999; box-sizing: border-box}#tycheConsole a:visited{ color: rgb(52, 152, 219) }#tycheConsole li:hover{background: rgba(52, 152, 219,.26)}.ad__name{ display:inline-block; width: 15%; font-weight:bold;}div[data-pw-desk="leaderboard_atf"] > div > iframe { margin:auto; }#pw-oop-bottom_rail > div > iframe { margin:auto; }</style><script charset="utf-8" src="./Defly.io - Play it now at CoolmathGames.com_files/stickyVideo.2ebaf85e43d153725e61.js.download"></script><script src="./Defly.io - Play it now at CoolmathGames.com_files/pubads_impl_2020013001.js.download" async=""></script></head>
+        <body class="path-_-defly-io node-type-game not-active-user game-1000px chrome windowsOS pc not-logged-in"><div id="mboxImported-default-target-global-mbox-0" style="visibility: visible; display: block;">
+</div>
+                    <a href="https://www.coolmathgames.com/0-defly-io#main-content" class="visually-hidden focusable">
+            Skip to main content
+          </a>
+          
+          <script type="text/javascript">
+            jQuery(document).ready(function() {
+              cmg_gdpr_check = getCookie("GDPR");
+              cmg_gdpr_all_check = getCookie("GDPR_All");
+              cmg_gdpr_first_check = getCookie("GDPR_First");
+              cmg_gdpr_reject_check = getCookie("GDPR_Reject");
+              if (cmg_gdpr_check != null && cmg_gdpr_check == "true") {
+                if (cmg_gdpr_all_check == null && cmg_gdpr_first_check == null && cmg_gdpr_reject_check == null) { // user is visiting our site firsttime from one of GDPR countries
+                  jQuery("#yourCookieChoices").show();
+                  //remove_ads_from_free_game_pages(); jQuery('.content-wrapper').css('pointer-events','default');
+                } else if (cmg_gdpr_first_check !== null || cmg_gdpr_reject_check !== null) { //user selected first party cookies or rejected all cookies so we need to remove ads
+                  remove_ads_from_free_game_pages();
+                  var footerlink = '<li class="menu__item is-leaf last leaf"><a href="/cookie-choices" class="menu__link">Your Cookie Choices</a></li>';
+                  jQuery(".footer-menu-column-0 .footer-menu").append(footerlink);
+                  //jQuery('.content-wrapper').css('pointer-events','default');
+                } else if (cmg_gdpr_all_check !== null) { //user accepted all cookies
+                  var footerlink = '<li class="menu__item is-leaf last leaf"><a href="/cookie-choices" class="menu__link">Your Cookie Choices</a></li>';
+                  jQuery(".footer-menu-column-0 .footer-menu").append(footerlink);
+                }
+              }
+            });
+          </script>
+                      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    <div class="global-wrapper">
+  <div class="global-content-wrapper">
+    <header class="main-header" role="banner" aria-label="Site header">
+      <div class="header-wrapper">
+          <div>
+      <div class="other-sites-wrapper">
+    <div class="pane-bean-cm4k-top">
+      <a href="https://www.coolmath4kids.com/"><img src="./Defly.io - Play it now at CoolmathGames.com_files/math-games-for-kids.png" alt="math-games-for-kids.png"></a>
+    </div>
+    <div class="pane-bean-cm-top">
+      <a href="http://www.coolmath.com/"><img src="./Defly.io - Play it now at CoolmathGames.com_files/algebra-and-more.png" alt="algebra-and-more.png"></a>
+    </div>
+  </div>
+      <div class="logo-container">
+      <a href="https://www.coolmathgames.com/" title="Home" rel="home" class="site-branding__logo"><img src="./Defly.io - Play it now at CoolmathGames.com_files/logo.png" alt="Home"></a>
+    </div>
+    <div class="right-header-block">
+    <div class="pane-cmatgame-subscription-userloginbar2">
+      <div id="user-login-form">
+        <div class="item-list">
+          <ul class="welcome-box"><li class="first last"><a title="Subscriber Login" class="welcome-text" href="https://www.coolmathgames.com/user/login?destination=/0-defly-io">Subscriber Login</a></li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel-pane pane-block pane-bean-new-go-ad-free">
+      <a onclick="goadfree_event_handler();" href="https://www.coolmathgames.com/signup/b2df5a33?origin=0-defly-io"><img src="./Defly.io - Play it now at CoolmathGames.com_files/go-ad-free.png"></a>
+    </div>
+  </div>
+
+  </div>
+
+        <div class="header-banner-block">
+          
+            <div>
+    <nav role="navigation" aria-labelledby="block-desktopheadermenu-menu" id="block-desktopheadermenu">
+            
+  <h2 class="visually-hidden" id="block-desktopheadermenu-menu">Desktop Header menu</h2>
+  
+
+        
+      <div class="pane-menu-menu-desktop-header-menu">
+      <div class="pane-content">
+                                    <ul class="menu">
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-strategy-games" class="menu_strategy menu__link" data-drupal-link-system-path="taxonomy/term/6">Strategy</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-skill-games" class="menu_skill menu__link" data-drupal-link-system-path="taxonomy/term/46">Skill</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-number-games" class="menu_numbers menu__link" data-drupal-link-system-path="taxonomy/term/151">Numbers</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-logic-games" class="menu_logic menu__link" data-drupal-link-system-path="taxonomy/term/91">Logic</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/trivia" class="menu_trivia menu__link" data-drupal-link-system-path="trivia">Trivia</a>
+                                              </li>
+                                          <li class="menu__item is-expanded expanded">
+                                                  <span class="menu_more menu__link nolink">More</span>
+                                                                                  <div class="expandable-wrapper">
+                    <ul class="menu">
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/1-classic-games" class="menu_classic menu__link" data-drupal-link-system-path="taxonomy/term/211">Classic</a>
+                                              </li>
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/1-word-games" class="menu_word games menu__link" data-drupal-link-system-path="taxonomy/term/1059">Word Games</a>
+                                              </li>
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/0-jigsaw-puzzles" class="menu_puzzles menu__link" data-drupal-link-system-path="0-jigsaw-puzzles">Puzzles</a>
+                                              </li>
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/1-memory-games" class="menu_memory menu__link" data-drupal-link-system-path="taxonomy/term/181">Memory</a>
+                                              </li>
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/1-geography-games" class="menu_geography menu__link" data-drupal-link-system-path="taxonomy/term/206">Geography</a>
+                                              </li>
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/1-science-games" class="menu_science menu__link" data-drupal-link-system-path="taxonomy/term/626">Science</a>
+                                              </li>
+                                                              <li>
+                                                                    <a href="https://www.coolmathgames.com/1-html5-games" class="menu_html5 menu__link" data-drupal-link-system-path="taxonomy/term/943">HTML5</a>
+                                              </li>
+                      </ul>
+                    </div>
+                    
+                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-playlists" class="menu_playlists menu__link" data-drupal-link-system-path="1-playlists">Playlists</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="javascript:void(0)" class="menu_random menu__link random-redirect">Random!</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-daily-games" class="menu_unlocked menu__link" data-drupal-link-system-path="taxonomy/term/1056">Daily Games</a>
+                                              </li>
+                                                                                    <li>
+                                                                                        <a href="https://www.coolmathgames.com/1-complete-game-list" class="menu_allgames menu__link" data-drupal-link-system-path="1-complete-game-list">All Games A-Z</a>
+                                              </li>
+                      </ul>
+                            </div>
+    </div>
+  
+
+  </nav>
+
+  </div>
+
+          <div class="panel-pane pane-block pane-cmatgame-search-search-game">
+            <div id="cmatgame-search-block-form">
+  <div class="form-item">
+    <label for="edit-search-bar">Search bar
+    </label>
+    <input placeholder="Search by game name" type="text" id="edit-search-bar" name="search_bar" value="" size="60" maxlength="128" class="form-text">
+    <div id="close-search-box" style="display: none;">X</div>
+  </div>
+  <div class="search-results-container" style="display: none;"></div>
+</div>
+          </div>
+        </div>
+          <div>
+    
+<div id="block-adstop-otherpage-728x90" class="block block-cmatgame-core block-adstop-otherpage-728x90">
+  
+    
+      <div class="view-content">
+      <div class="item-list"><ol><li class="first last"><div class="panel-pane pane-block pane-cmatgame-advertisement-cm-g-otherpages-728-90"><div class="ad-wrapper"><!-- 728 x 90 ATF Desktop --><div data-pw-desk="leaderboard_atf"></div></div></div></li></ol></div>
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+    </header>
+    <div class="content-column-wrapper clearfix">
+      <div class="content-layout">
+        <main class="main-column" role="main">
+          <section class="section">
+            <div class="inside">
+                                <div>
+    
+<div id="block-adsleft-otherpage-160x600" class="block block-cmatgame-core block-adsleft-otherpage-160x600">
+  
+    
+      <div class="view-content">
+      <div class="panel-pane pane-block pane-cmatgame-advertisement-cm-g-otherpages-160x600-left">
+	        <div class="ad-wrapper">
+	          <div id="left-ad" class="ad-holder">
+	           <!-- will be appended later if window/game size requirements are met
+	           <div data-pw-desk="sky_atf"></div> -->
+	          </div>
+	          <script type="text/javascript">
+	           if((typeof cmatgame_subscriber === "undefined" || cmatgame_subscriber === "" || cmatgame_subscriber === null || typeof freeTrialUser === "undefined" ) && (typeof freeTrialUser !== "undefined" && !freeTrialUser) && jQuery(window).width() >= 1366) {
+	             var leftAd = document.getElementById("left-ad");
+	             var sky_left = document.createElement("div");
+	             sky_left.setAttribute("data-pw-desk", "sky_atf");
+	             leftAd.appendChild(sky_left);
+	           }
+	          </script>
+	          </div>
+	        </div>
+    </div>
+  </div>
+
+  </div>
+
+                            <div class="panel-pane pane-page-content">
+                <div class="pane-content">
+                  <div class="global-wrapper-content">
+                    <a id="main-content" tabindex="-1"></a>
+                      <div>
+    <div data-drupal-messages-fallback="" class="hidden"></div>
+
+<div id="block-cmatgame-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="view-content">
+      
+    </div>
+  </div>
+
+<div id="block-cmatgame-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="view-content">
+      <div class="cmatgame-title">
+  
+      <h1 class="pane-title"><span>Defly.io</span>
+
+      
+
+<div id="thumbsup">
+  <span id="thumbsuplike_message"></span>
+  <span class="thumbsupmessage likepercent">94% like this game</span>
+  <div class="like-container-entity-node" id="like-container-12531">
+    <div class="like inline float-left">
+      <input type="hidden" id="thumbsvote" value="false">
+      <a href="javascript:;" nodeid="12531" class="enable entity-node"><img src="./Defly.io - Play it now at CoolmathGames.com_files/thumbs_up_white.png" alt="Like" title="Like" class="entity-node"></a>
+    </div>
+  </div>
+  <div class="dislike-container-entity-node" id="dislike-container-12531">
+    <div class="dislike inline float-left">
+      <input type="hidden" id="thumbsvote" value="false">
+      <a href="javascript:;" nodeid="12531" class="enable entity-node"><img src="./Defly.io - Play it now at CoolmathGames.com_files/thumbs_down_white.png" alt="Dislike" title="Dislike" class="entity-node"></a>
+    </div>
+  </div>
+  <input type="hidden" id="gamerating" name="gamerating" value="">
+  <input type="hidden" id="percentlike_vote" name="percentlike_vote" value="yes">
+</div>
+</h1>
+    
+</div>
+
+    </div>
+  </div>
+
+<div id="block-carouselingamedetailpage" class="block block-cmatgame-core block-gamedetailcarousel">
+  
+    
+      <div class="view-content">
+      <div class="pane-game-details-carousel-game-detail"><div class="view-display-id-carousel_game_detail"><div class="view-header"><p>You'll Also Like...</p></div><div class="view-content"><div><div class="bx-wrapper jcarousel-wrapper"><div class="jcarousel" data-jcarousel="true"><ul style="left: 0px; top: 0px;"><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-copter-royale"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/copter-royale-game-logo.png" width="83" height="50" alt="Copter Royale Game" title="Copter Royale" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Copter Royale</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-learn-to-fly"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/learn-to-fly-game-logo.png" width="83" height="50" alt="Learn to Fly Game" title="Learn to Fly" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Learn to Fly</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-learn-to-fly-2"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/learn-to-fly-2-logo_0.png" width="83" height="50" alt="Learn to Fly 2 Game" title="Learn to Fly 2" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Learn to Fly 2</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-learn-to-fly-3"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/learn-to-fly-3-game-logo-3.png" width="83" height="50" alt="Learn to Fly 3 Game" title="Learn to Fly 3" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Learn to Fly 3</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-burrito-bison"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/burrito-bison-logo.png" width="83" height="50" alt="Burrito Bison Game" title="Burrito Bison" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Burrito Bison</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-into-space"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/into-space-game-logo.png" width="83" height="50" alt="Into Space Game" title="Into Space" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Into Space</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-into-space-2"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/into-space-2-game-logo.png" width="83" height="50" alt="Into Space 2 Game" title="Into Space 2" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Into Space 2</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-into-space-3-xmas-story"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/into-space-3-game-logo.png" width="83" height="50" alt="Into Space 3: Xmas Story Game" title="Into Space 3: Xmas Story" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Into Space 3: Xmas Story</span></h5></a></div></div></li><li class="bxslider-views-slideshow-main-frame-row"><div class="game-item"><div class="game-link-wrapper"><a href="https://www.coolmathgames.com/0-reach-the-core"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/reach-the-core-game-logo.png" width="83" height="50" alt="Reach the Core Game" title="Reach the Core" typeof="foaf:Image">
+
+</div><h5 class="game-title"><span class="overlay"></span><span class="title-on-overlay">Reach the Core</span></h5></a></div></div></li></ul></div><div class="bx-controls-direction1"><a href="https://www.coolmathgames.com/0-defly-io#" class="jcarousel-control-prev inactive" data-jcarouselcontrol="true">‹</a><a href="https://www.coolmathgames.com/0-defly-io#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a></div></div></div></div></div></div>
+    </div>
+  </div>
+
+<div id="block-cmatgame-cmatgame-system-main" class="block block-system block-system-main-block">
+  
+    
+      <div class="view-content">
+      
+<div id="block-system-main">
+    <article data-history-node-id="12531" role="article" about="/0-defly-io" class="node node-game node--view-mode-full clearfix game-w-summary game-field-wrapper">
+        <header>
+      
+            
+    </header>
+
+    <script>
+      if(typeof signupPromoTop !== 'undefined' && signupPromoTop !== ''){
+          signupContainerTop = '<div class="signup-container-top"><a href="/signup/2efa4bc4" onclick="preroll_signup_top_handler();">' + signupPromoTop + '</a></div>';
+        } else {
+          signupPromoTop = '';
+          signupContainerTop = '<div class="signup-container-top"><a href="/signup/2efa4bc4" onclick="preroll_signup_top_handler();">' + signupPromoTop + '</a></div>';
+        }
+        if(typeof signupPromoBottom !== 'undefined' && signupPromoBottom !== ''){
+          signupContainerBottom = '<div class="signup-container-bottom"><a href="/signup/2efa4bc4" onclick="preroll_signup_bottom_handler();"> ' + signupPromoBottom + '</a></div>';
+        } else {
+          signupPromoBottom = '';
+          signupContainerBottom = '<div class="signup-container-bottom"><a href="/signup/2efa4bc4" onclick="preroll_signup_bottom_handler();"> ' + signupPromoBottom + '</a></div>';
+        }
+        function preroll_signup_top_handler(){
+          trackEvent('Preroll Signup Clicked', 'Preroll Signup Top', document.title);
+        }
+        function preroll_signup_bottom_handler(){
+          trackEvent('Preroll Signup Clicked', 'Preroll Signup Bottom', document.title);
+        }
+    </script>
+    <div class="node__content clearfix field-item">
+      <div id="no-flash-overlay" style="display:none;">
+        <a href="http://www.adobe.com/go/getflashplayer" target="_blank"><img src="./Defly.io - Play it now at CoolmathGames.com_files/enable-flash-chrome.png" alt="click to enable flash"></a>
+        <div class="bottom-text">
+          <p>If that doesn't work,
+            <a href="https://www.coolmathgames.com/fix-flash" class="fix-flash-2">go here for more help.</a>
+          </p></div>
+        </div>
+                    <div class="field-game iframe-url-game" id="swfgamewrapper">
+  	    	<iframe1 class="" width="1000px" height="700px" src="https://deflyio.coolmathgames.com" frameborder="0" id="html5game" scrolling="no"></iframe1>
+      </div>
+
+        
+                
+        <script type="text/javascript">
+  isRemoveAdSwfJWPLayer = false;
+  // Testing Overlay for Watch Ad To Unlock Games
+  // var watchAdtoUnlockGame = true;
+  // var schoolHours = false;
+  window.addEventListener("message", receiveMessage, false);
+  function receiveMessage(event) {
+    //console.log("message recieved2: " + event.data);
+    if (event.origin === "https://copterroyale.coolmathgames.com" || event.origin === "https://powerline.coolmathgames.com") {
+      console.log("message recieved1 : " + event.data);
+      var eventObject = JSON.parse(event.data);
+      if (eventObject.eventType == "gameEvent") {
+        cmgGameEvent(eventObject.key, eventObject.value);
+      } else if (eventObject.eventType == "dataEvent") {
+        cmgDataEvent(eventObject.key, eventObject.value);
+      }
+    } else {
+      return;
+    }
+  }
+  // var signupPromoTop = 'Join to Play Ad-Free'; var signupPromoBottom = 'Join to Skip All Ads';
+  if (typeof signupPromoTop !== 'undefined' && signupPromoTop !== '') {
+    signupContainerTop = '<div class="signup-container-top"><a href="/signup/2efa4bc4" onclick="preroll_signup_top_handler();">' + signupPromoTop + '</a></div>';
+  } else {
+    signupPromoTop = '';
+    signupContainerTop = '<div class="signup-container-top"><a href="/signup/2efa4bc4" onclick="preroll_signup_top_handler();">' + signupPromoTop + '</a></div>';
+  }
+  if (typeof signupPromoBottom !== 'undefined' && signupPromoBottom !== '') {
+    signupContainerBottom = '<div class="signup-container-bottom"><a href="/signup/2efa4bc4" onclick="preroll_signup_bottom_handler();"> ' + signupPromoBottom + '</a></div>';
+  } else {
+    signupPromoBottom = '';
+    signupContainerBottom = '<div class="signup-container-bottom"><a href="/signup/2efa4bc4" onclick="preroll_signup_bottom_handler();"> ' + signupPromoBottom + '</a></div>';
+  }
+  function preroll_signup_top_handler() {
+    trackEvent('Preroll Signup Clicked', 'Preroll Signup Top', document.title);
+  }
+  function preroll_signup_bottom_handler() {
+    trackEvent('Preroll Signup Clicked', 'Preroll Signup Bottom', document.title);
+  }
+
+  // we will define this varialbe signUpURLABTest in experiments.js
+  var cmg_upg_days_limit = 180;
+  var user_dst = window.location.pathname;
+  user_dst = user_dst.replace("\/", "");
+  if (window.location.host !== 'cmatgame.local') {
+    if (typeof signUpURL === 'undefined' || signUpURL === '') {
+      signUpURL = '/signup/b2df5a33?origin=' + user_dst;
+    } else {
+      signUpURL = signUpURL + '?origin=' + user_dst;
+    }
+  } else if (typeof signUpURLABTest === "undefined" || signUpURLABTest === null) {
+    signUpURL = 'https://' + window.location.hostname + '/signup/b2df5a33?origin=' + user_dst;
+  } else {
+    signUpURL = signUpURLABTest;
+  }
+  function subscription_promo_handler() {
+    if (typeof freeTrialUser !== 'undefined' && freeTrialUser) {
+      trackEvent('Premium Subscription ' + subscriberLeg, 'Subscription overlay clicked', userPlayedGames);
+      trackGoalVirtualPV('/virtual/subscription-overlay-click');
+    }
+    return;
+  }
+  function subscriptionSignUpUrl() {
+    var user_played_games = '';
+    var zeroFreeGamesLeftUsers = localStorage.getItem("zeroFreeGamesLeftUsers");
+    if (typeof userPlayedGames !== 'undefined' && userPlayedGames) {
+      user_played_games = "upg=" + userPlayedGames;
+    } else {
+      user_played_games = "upg=0";
+    }
+    if (zeroFreeGamesLeftUsers !== null && user_played_games !== '') {
+      user_played_games = user_played_games + '&zfg=' + zeroFreeGamesLeftUsers;
+    } else if (zeroFreeGamesLeftUsers !== null) {
+      user_played_games = 'zfg=' + zeroFreeGamesLeftUsers;
+    }
+    if (typeof signUpURL !== 'undefined' && signUpURL !== null && signUpURL.indexOf('upg') === -1) {
+      if (signUpURL.indexOf('?random_true') > -1) {
+        signUpURL = signUpURL.replace('?random_true', '');
+      }
+      if (signUpURL.indexOf('?') > -1) {
+        signUpURL = signUpURL + '&' + user_played_games;
+      } else {
+        signUpURL = signUpURL + '?' + user_played_games;
+      }
+    }
+  }
+  function removePrerollAndDisplayGame() {
+    //console.log('remove ad swf');
+    if (isRemoveAdSwfJWPLayer) { //remove preroll only once
+      console.log('ad swf player already removed');
+    } else {
+      console.log('removeAdSwfJWPLayer called');
+      // destroys video player completely
+      if (typeof Bolt !== 'undefined') {
+        Bolt.removeVideo('cmg-player', true);
+      }
+      jQuery("#my-content").css("opacity", "1");
+      if(typeof intervalId != "undefined") {
+        clearInterval(intervalId);
+      }
+      jQuery("#afg_container").remove();
+      jQuery("#afg_preloader").remove();
+      jQuery("#continue-container").remove();
+      if (!drupalSettings.cmatgame.swfembed) {
+        console.log('removeAdSwfJWPLayer: html5 game');
+        //html5 game game width, game height and game type
+        game_width = jQuery("#html5game").attr("width");
+        game_height = jQuery("#html5game").attr("height");
+        game_type = "html5";
+        // IE Detection and Version grabbing
+        ie = false;
+        var html5_game_url = jQuery("#html5game").attr("src");
+        var swf_game_url = jQuery("#swfgame").attr("src");
+
+        if (typeof swf_game_url !== 'undefined') {
+          if (!checkIfFlashIsEnabled()) {
+            //console.log('flash is undefined');
+            flashDetectionMessage();
+          }
+        }
+        if (typeof swf_game_url !== 'undefined' && swf_game_url.indexOf("//") === 0) {
+          swf_game_url = window.location.protocol + swf_game_url;
+        } else if (typeof swf_game_url !== 'undefined' && swf_game_url.indexOf("//") > 0) {
+          swf_game_url = swf_game_url.replace("http:", window.location.protocol);
+        }
+        if (typeof html5_game_url !== 'undefined' && html5_game_url.indexOf("//") === 0) {
+          html5_game_url = window.location.protocol + html5_game_url;
+        } else if (typeof html5_game_url !== 'undefined' && html5_game_url.indexOf("//") > 0) {
+          html5_game_url = html5_game_url.replace("http:", window.location.protocol);
+        }
+        if (navigator.appName == "Microsoft Internet Explorer") {
+          ie = true;
+          var ua = navigator.userAgent;
+          var re = new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");
+          if (re.exec(ua) != null) {
+            ieVersion = parseInt(RegExp.$1)
+          }
+        }
+        if (ie && ieVersion < 9) {
+          nothtml5browser = '<div style="margin-top:20px;color: #f5e61f;line-height:1.1em;font-size: 1.867em;">Hey, you\'re using an older web browser that can\'t play HTML5 games like this one.<br><br>Please switch to another browser or just enjoy a different Coolmath game!</' +
+              'div><br><p style="font-size:1.6em;color:#0E83D4;font-weight:bold;">&#8226; <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_new">Get a new Internet Explorer browser from Microsoft</a></p>';
+          jQuery("#html5game").replaceWith(nothtml5browser);
+          jQuery("#swfgame").replaceWith(nothtml5browser);
+        } else {
+          sandbox = jQuery("#html5game").attr("sandbox");
+          if (sandbox !== undefined) {
+            sandbox = ' sandbox=\"' + sandbox + '\"';
+          } else {
+            sandbox = '';
+          }
+          newiframe = '<iframe id="html5game" src="' + html5_game_url + '" class="' + jQuery("#html5game").attr("class") + '" width="' + jQuery("#html5game").attr("width") + '" height="' + jQuery("#html5game").attr("height") + '" scrolling="no" marginwidth="0' +
+              '" vspace="0" frameborder="0" hspace="0" marginheight="0"' + sandbox + '></iframe>';
+          newswfiframe = '<iframe id="swfgame" src="' + swf_game_url + '" class="' + jQuery("#swfgame").attr("class") + '" width="' + jQuery("#swfgame").attr("width") + '" height="' + jQuery("#swfgame").attr("height") + '" scrolling="no" marginwidth="0" vspac' +
+              'e="0" frameborder="0" hspace="0" marginheight="0"></iframe>';
+          if (typeof isRemoveAdSwfJWPLayer === "undefined" || !isRemoveAdSwfJWPLayer) {
+            jQuery("#html5game").replaceWith(newiframe);
+            if (checkIfFlashIsEnabled()) {
+              jQuery("#swfgame").replaceWith(newswfiframe);
+            }
+          }
+        }
+      } else {
+        console.log('removeAdSwfJWPLayer: flash game');
+        if (!checkIfFlashIsEnabled()) {
+          //console.log('flash is undefined');
+          /* CLSS-1614 to load html5 as backup - START */
+          var html5_game_url = jQuery("#html5game").attr("src");
+          if (typeof html5_game_url !== 'undefined') {
+            console.log('removeAdSwfJWPLayer: html5 game as backup if flash is diabled');
+            game_width = jQuery("#html5game").attr("width");
+            game_height = jQuery("#html5game").attr("height");
+            game_type = "html5";
+            // IE Detection and Version grabbing
+            ie = false;
+            if (typeof html5_game_url !== 'undefined' && html5_game_url.indexOf("//") === 0) {
+              html5_game_url = window.location.protocol + html5_game_url;
+            } else if (typeof html5_game_url !== 'undefined' && html5_game_url.indexOf("//") > 0) {
+              html5_game_url = html5_game_url.replace("http:", window.location.protocol);
+            }
+            if (navigator.appName == "Microsoft Internet Explorer") {
+              ie = true;
+              var ua = navigator.userAgent;
+              var re = new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");
+              if (re.exec(ua) != null) {
+                ieVersion = parseInt(RegExp.$1)
+              }
+            }
+            if (ie && ieVersion < 9) {
+              nothtml5browser = '<div style="margin-top:20px;color: #f5e61f;line-height:1.1em;font-size: 1.867em;">Hey, you\'re using an older web browser that can\'t play HTML5 games like this one.<br><br>Please switch to another browser or just enjoy a different Coolmath game!</' +
+                  'div><br><p style="font-size:1.6em;color:#0E83D4;font-weight:bold;">&#8226; <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_new">Get a new Internet Explorer browser from Microsoft</a></p>';
+              jQuery("#html5game").replaceWith(nothtml5browser);
+            } else {
+              sandbox = jQuery("#html5game").attr("sandbox");
+              if (sandbox !== undefined) {
+                sandbox = ' sandbox=\"' + sandbox + '\"';
+              } else {
+                sandbox = '';
+              }
+              newiframe = '<iframe id="html5game" src="' + html5_game_url + '" class="' + jQuery("#html5game").attr("class") + '" width="' + jQuery("#html5game").attr("width") + '" height="' + jQuery("#html5game").attr("height") + '" scrolling="no" marginwidth="0' +
+                  '" vspace="0" frameborder="0" hspace="0" marginheight="0"' + sandbox + '></iframe>';
+              if (typeof isRemoveAdSwfJWPLayer === "undefined" || !isRemoveAdSwfJWPLayer) {
+                jQuery("#html5game").replaceWith(newiframe);
+              }
+            }
+          } else {
+            /* CLSS-1614 to load html5 as backup - END */
+            flashDetectionMessage();
+          }
+        } else {
+          //flash game game width, game height and game type
+          game_width = drupalSettings.cmatgame.swfembed.swf.swf_1.width;
+          game_height = drupalSettings.cmatgame.swfembed.swf.swf_1.height;
+          game_type = "flash";
+
+          if (typeof isRemoveAdSwfJWPLayer === "undefined" || !isRemoveAdSwfJWPLayer) {
+            var swf_game_url = jQuery("#swfgame").attr("src");
+            if (typeof swf_game_url !== 'undefined' && swf_game_url.indexOf("//") === 0) {
+              swf_game_url = window.location.protocol + swf_game_url;
+            } else if (typeof swf_game_url !== 'undefined' && swf_game_url.indexOf("//") > 0) {
+              swf_game_url = swf_game_url.replace("http:", window.location.protocol);
+            }
+            console.log("removeAdSwfJWPLayer: New swf implementation iFrame attr src " + swf_game_url);
+            newswfiframe = '<iframe id="swfgame" src="' + swf_game_url + '" class="' + jQuery("#swfgame").attr("class") + '" width="' + jQuery("#swfgame").attr("width") + '" height="' + jQuery("#swfgame").attr("height") + '" scrolling="no" marginwidth="0" vspac' +
+                'e="0" frameborder="0" hspace="0" marginheight="0"></iframe>';
+            jQuery("#swfgame").replaceWith(newswfiframe);
+
+            var gameInstructions = document.getElementById('game-instructions');
+            //insert fix flash div before game instructions field
+            if (typeof gameInstructions !== 'undefined' && gameInstructions !== null && typeof gameInstructions.innerHTML !== 'undefined' && gameInstructions.innerHTML !== null) {
+              gameInstructions.innerHTML = '<div class="no-flash">If this flash game doesn\'t work on your computer, go <a href="/fix-flash.html">here</a> for help.</div><br><br>' + gameInstructions.innerHTML;
+            }
+          }
+
+          isRemoveAdSwfJWPLayer = true;
+        }
+      }
+    }
+  }
+  function cmatgame_premium_subscription_game_display() {
+    var cmatgame_subscriber = getCookie('cmg_sx');
+    var validSubscriber = false;
+    if (typeof cmatgame_subscriber !== 'undefined' && cmatgame_subscriber !== null) {
+      validSubscriber = true;
+    }
+    if (typeof subscribeNowAlienClass === 'undefined' || subscribeNowAlienClass === null || subscribeNowAlienClass === '') {
+      // if (drupalSettings.cmatgame.isSubscriptionActive == false) {
+      //   subscribeNowAlienClass = "subscribe-now-alien-subscribe";
+      // } else {
+      //   subscribeNowAlienClass = "subscribe-now-alien-signup";
+      // }
+    }
+    freeGamesExceeded = true;
+    //display Ads to anonymous users the time from 7am to 13pm, display ads to anonymous users 	from 13pm to 11:59pm and 00 to 7am only if the user is not from New York city
+    //	TODO -->	Need to add day of the week for school hours logic, day < 6 do not display Ads when GDPR cookie is set abd GDPR_All cookie is not set
+    if (validSubscriber) {
+      removePrerollAndDisplayGame();
+    } else if (getCookie('cmg_schwl') !== null || typeof cmg_no_ads !== 'undefined' || (!validSubscriber && schoolHours || (!schoolHours && !targetStateUser) || (!schoolHours && targetStateUser && getCookie('cmg_active_anonymous_user') !== null))) {
+      //TODO Display Game
+      removePrerollAndDisplayGame();
+      if (!/0-chess/.test(window.location.pathname)) {
+        //setCookie('cmg_active_anonymous_user', 'active', 30*60*1000);
+      }
+    } else if (!validSubscriber && !schoolHours && targetStateUser && getCookie('cmg_active_anonymous_user') === null && getCookie('cmg_editor') === null) {
+      //if user comes from google dont show the subscription paywall
+      var ref = document.referrer;
+      //count number of games played by the user this month
+      userPlayedGames = 0;
+      var userFreeGameList = [];
+      var freeGameNid = 12531;
+      if (sessionStorage.getItem("userFreeGameList") !== null) {
+        userFreeGameList = JSON.parse(sessionStorage.getItem("userFreeGameList"));
+      }
+      if ((localStorage.getItem("userPlayedGames") == null || getCookie('cmg_upg') === null) && freeGameLimit !== 0) {
+        userPlayedGames = 1;
+        localStorage.setItem("userPlayedGames", userPlayedGames);
+        //TODO monthly cookie
+        setCookie('cmg_upg', 'true', cmg_upg_days_limit * 24 * 60 * 60 * 1000);
+        userFreeGameList = [freeGameNid];
+        sessionStorage.setItem("userFreeGameList", JSON.stringify(userFreeGameList));
+        //TODO Display Game
+        removePrerollAndDisplayGame();
+
+      } else {
+        //userPlayedGames = parseInt(localStorage.getItem("userPlayedGames"+currentMonth+currentYear)); Monthly limit
+        if (localStorage.getItem("userPlayedGames") !== null && getCookie('cmg_upg') !== null) {
+          userPlayedGames = parseInt(localStorage.getItem("userPlayedGames"));
+        } else {
+          userPlayedGames = 0;
+          setCookie('cmg_upg', 'true', cmg_upg_days_limit * 24 * 60 * 60 * 1000);
+        }
+        if (freeGameLimit != 0 && userPlayedGames < freeGameLimit && userFreeGameList.indexOf(freeGameNid) === -1) {
+          userPlayedGames++;
+          freeGamesExceeded = false;
+          if (userFreeGameList.length > 0) {
+            userFreeGameList = userFreeGameList.concat(freeGameNid);
+          } else {
+            userFreeGameList = [freeGameNid];
+          }
+          localStorage.setItem("userPlayedGames", userPlayedGames);
+          sessionStorage.setItem("userFreeGameList", JSON.stringify(userFreeGameList));
+        } else {
+          freeGamesExceeded = true;
+        }
+        //console.log("Number of games user has played "+ userPlayedGames );
+        var validReferer = false;
+        var validGameSession = false;
+        if (userFreeGameList.indexOf(freeGameNid) > -1) {
+          validGameSession = true;
+        }
+        if (ref.match("google.com") !== null || ref.match("yahoo.com") !== null || ref.match("bing.com") !== null) {
+          validReferer = true;
+        }
+        subscriptionSignUpUrl();
+        if (!validReferer && userPlayedGames >= freeGameLimit && !validGameSession) { //subscription paywall
+          //block anonymous users for New York City from 0-7am and 13pm to 11:59pm console.log("Free games limit exceeded and referer is not google");
+          clearInterval(intervalId);
+          jQuery("#afg_container").remove();
+          jQuery(".title-instructions").remove();
+          jQuery(".body-instructions").remove();
+          var alreadySubscriberText = '<p class="already-subscribed">Already a Subscriber? <a class="learn-more-link" href="/user/login">Login</a></p>';
+          if (getCookie('cmg_l') != null) {
+            alreadySubscriberText = '';
+          }
+          var headLine = '<p class="no-free-games-headline">Please Sign up to keep playing</p>';
+          if (getCookie('cmg_l') != null && getCookie('cmg_sx') != null ) {
+            headLine = '<p class="no-free-games-headline" style="padding-top:46px;">PLEASE SUBSCRIBE NOW TO KEEP PLAYING</p>';
+          }
+          jQuery(".field-game").html(
+            '<div class="subscription-overlay" style="height:360px;width:500px;background:#008aa3;white-space:normal;">' + headLine + '<p class="free-in-schools">The World\'s Best Collection of Games <br> For Logic, Reasoning & Fun.  <a class="' +
+            subscribeNowAlienClass + '" onclick="subscription_promo_handler();" href="' + signUpURL + ' ">Subscribe Now</a>' + alreadySubscriberText + '</div>'
+          );
+          jQuery("#videoplayer").remove();
+        } else {
+          //console.log("User may have come from google or is within the free game limit "+ (freeGameLimit-userPlayedGames) );
+          //TODO Display Game
+          removePrerollAndDisplayGame();
+        }
+      }
+    }
+  }
+  function unlockAllLevels() {
+    trackEvent('Unlock All Levels category', 'unlock all levels button clicked', document.title);
+    alllevels = '<div id="subscriber-banner"><div class="adobe-analytics-sub-experience levels-unlocked">levels-unlocked</div></div>';
+    jQuery("#subscriber-banner").replaceWith(alllevels);
+    var cmgorigindomain = /coolmath-games/;
+    var cmgtargetdomain = window.location.protocol + '//www.coolmath-games.com';
+    if (/edit-stage/.test(window.location.hostname)) {
+      cmgtargetdomain = window.location.protocol + '//edit-stage.coolmath-games.com';
+    } else if (/d8-dev/.test(window.location.hostname)) {
+      cmgtargetdomain = window.location.protocol + '//stage.coolmath-games.com';
+    } else if (/cmatgame.local|dev.coolmath.games.com/.test(window.location.hostname)) {
+      cmgtargetdomain = window.location.protocol + '//stage.coolmath-games.com';
+    }
+    if (game_type == "html5") {
+      document.getElementById("html5game").contentWindow.unlockAllLevels();
+    } else {
+      if (cmgorigindomain.test(window.location.hostname)) {
+        document.getElementById("swfObjID").unlockAllLevels();
+      } else {
+        var recievergameFrame = document.getElementById("swfgame");
+        gDate = new Date();
+        console.log("Game Parent - unlockAllLevels: posting unlock message to iFrame: " + gDate + " Timestamp: " + gDate.getTime());
+        console.log("Target Domain " + cmgtargetdomain);
+        recievergameFrame.contentWindow.postMessage('unlockAllLevels', cmgtargetdomain); //TODO -- put target origin
+      }
+    }
+  }
+  function addSubToUnlockGAEvent() {
+    trackEvent('Unlock All Levels category', 'subscribe to unlock button clicked', document.title);
+    trackGoalVirtualPV('/virtual/unlock-button-click');
+    window.location.href = "https://www.coolmathgames.com/signup/b2df5a33?origin=/0-defly-io&stual=1"
+  }
+</script>
+
+  <script type="text/javascript">
+    hide_preroll_ads = false;
+    var cmg_active_anonymous_user = getCookie('cmg_active_anonymous_user');
+    if (cmg_active_anonymous_user != null && !/0-chess/.test(window.location.pathname)) {
+      //setCookie('cmg_active_anonymous_user', 'active', 30*60*1000);
+    }
+  </script>
+  <div id="afg_container">
+    <style type="text/css">
+      .load-wrap {
+        width: 100%;
+      }
+      .circle {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin-right: 20px;
+        background-color: #fc6e51;
+        border-radius: 50%;
+        -webkit-animation: afg_container_loading 1.6s infinite;
+        -moz-animation: afg_container_loading 1.6s infinite;
+        -o-animation: afg_container_loading 1.6s infinite;
+        animation: afg_container_loading 1.6s infinite;
+      }
+      .load-wrap .circle:nth-child(3) {
+        -webkit-animation-delay: 0.1s;
+        -moz-animation-delay: 0.1s;
+        -o-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+        background: #f8eb13;
+        margin: -40px 5px 40px 340px;
+      }
+      .load-wrap .circle:nth-child(4) {
+        -webkit-animation-delay: 0.3s;
+        -moz-animation-delay: 0.3s;
+        -o-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+        background: #33a2da;
+        margin: -40px 5px 40px;
+      }
+      .load-wrap .circle:nth-child(5) {
+        -webkit-animation-delay: 0.5s;
+        -moz-animation-delay: 0.5s;
+        -o-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+        background: #ee3928;
+        margin: -40px 5px 40px;
+      }
+      .load-wrap .circle:nth-child(6) {
+        -webkit-animation-delay: 0.7s;
+        -moz-animation-delay: 0.7s;
+        -o-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+        background: #51b747;
+        margin: -40px 5px 40px;
+      }
+      /* Keyframes */
+      @-webkit-keyframes afg_container_loading {
+        0%,
+        100% {
+          -webkit-transform: scale(0.0);
+        }
+        50% {
+          -webkit-transform: scale(1.0);
+        }
+      }
+      @-moz-keyframes afg_container_loading {
+        0%,
+        100% {
+          -moz-transform: scale(0.0);
+        }
+        50% {
+          -moz-transform: scale(1.0);
+        }
+      }
+      @-o-keyframes afg_container_loading {
+        0%,
+        100% {
+          -o-transform: scale(0.0);
+        }
+        50% {
+          -o-transform: scale(1.0);
+        }
+      }
+      @keyframes afg_container_loading {
+        0%,
+        100% {
+          transform: scale(0.0);
+        }
+        50% {
+          transform: scale(1.0);
+        }
+      }
+    </style>
+    <div class="load-wrap">
+      <script type="text/javascript">
+        // IE Detection and Version grabbing
+        ie = false;
+        if (navigator.appName == "Microsoft Internet Explorer") {
+          ie = true;
+          var ua = navigator.userAgent;
+          var re = new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");
+          if (re.exec(ua) != null) {
+            ieVersion = parseInt(RegExp.$1)
+          }
+        }
+        if (ie && ieVersion <= 9) {
+          document.write('<h3 style="margin:20px 0px; font-size: 20px">Just a moment while your game loads...</h3>' + signupContainerTop);
+        } else {
+          document.write('<h3 style="margin:20px 0px; font-size: 20px">Just a moment while your game loads</h3><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div>' + signupContainerTop);
+        }
+      </script><h3 style="margin:20px 0px; font-size: 20px">Just a moment while your game loads</h3><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="circle"></div><div class="signup-container-top"><a href="https://www.coolmathgames.com/signup/2efa4bc4" onclick="preroll_signup_top_handler();">Act Now to Play Ad-Free</a></div>
+    </div>
+  </div>
+
+
+  <!--Start of Preloader call -->
+  <div id="afg_preloader">
+    <div id="container123">
+      <div id="videoplayer">
+        <video id="content123" style="height: 1px; width: 640px; display: none;">
+          <source src="//www.coolmathgames.com/sites/default/files/adtesting/DummyVideo.mov">
+        </video>
+        <div id="adcontainer" style="height:480px;width:640px;"><div style="position: absolute; width: 640px; height: 480px;"><div style="display: block;"><video title="Advertisement" webkit-playsinline="true" playsinline="true" style="background-color: rgb(0, 0, 0); position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;" src="https://gcdn.2mdn.net/videoplayback/id/abcd6167d3c50192/itag/343/source/doubleclick_dmm/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3723569914/sparams/id,itag,source,ctier,acao,ip,ipbits,expire/signature/95116CDC868517741F976557F9C30E88A6B53C1A.499078CD0694418258D6DC5B1519C48EBA49D719/key/ck2/file/file.mp4?cpn=Q5oA2PI_Umn0c8sZ"></video><div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div></div><div style="display: none;"><video title="Advertisement" webkit-playsinline="true" playsinline="true" style="background-color: rgb(0, 0, 0); position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></video><div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div></div><iframe src="./Defly.io - Play it now at CoolmathGames.com_files/bridge3.367.1_en.html" allowfullscreen="" allow="autoplay" style="border: 0px; opacity: 1; margin: 0px; padding: 0px; position: relative;" width="640" height="480"></iframe></div></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/cmg-prebid-1.40.0.new.js.download"></script>
+    <script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/ima3.js.download"></script>
+    <script type="text/javascript">
+        displayAdblockOverlay = false;
+        /*if(typeof cmgpbjs == "undefined"){  //cmgpbjs is defined in ads, so if it undefined means, adblocker is detected
+           displayAdblockOverlay = true;
+        }*/
+      var videoAdUnit = {
+        code: 'video',
+        mediaTypes: {
+          video: {
+            context: 'instream',
+            playerSize: [640, 480]
+          }
+        },
+        bids: [
+          {
+            bidder: 'appnexus',
+            params: {
+              placementId: 14548822
+            }
+          }, {
+            bidder: 'rubicon',
+            params: {
+              accountId: "12556",
+              siteId: "240994",
+              zoneId: "1188846",
+              video: {
+                language: "en",
+                playerHeight: 480,
+                playerWidth: 640,
+                size_id: 201
+              }
+            }
+          }, {
+            bidder: 'districtm',
+            params: {
+              placementId: 16752860
+            }
+          }, {
+            bidder: 'openx',
+            params: {
+              unit: 540783085,
+              delDomain: 'playwire-d.openx.net',
+              openrtb: {
+                imp: [
+                  {
+                    video: {
+                      mimes: ['video/mp4, video/x-ms-wmv']
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+
+      let bidderSettings = {
+        'districtm': {
+          'bidCpmAdjustment': function(bidCpm) {
+            // adjust the bid in real time before the auction takes place
+            return bidCpm * 0.90;
+          }
+        },
+        'rubicon': {
+          'bidCpmAdjustment': function(bidCpm) {
+            // adjust the bid in real time before the auction takes place
+            return bidCpm * 0.83;
+          }
+        },
+        'standard': {
+          'alwaysUseBid': false,
+          'adserverTargeting': [
+            {
+              'key': 'hb_bidder',
+              'val': function(bidResponse) {
+                if (bidResponse.bidder === 'appnexus') {
+                  return 'appnexusAst'
+                }
+                return bidResponse.bidder
+              }
+            }, {
+              'key': 'hb_val',
+              'val': function(bidResponse) {
+
+                return bidResponse.cpm.toFixed(2);
+
+              }
+            }
+          ]
+        }
+      }
+
+      if (typeof cmgpbjs !== "undefined") {
+        cmgpbjs.que.push(function() {
+
+          cmgpbjs.bidderSettings = bidderSettings;
+          cmgpbjs.addAdUnits(videoAdUnit);
+
+          cmgpbjs.setConfig({
+            bidderSequence: 'fixed',
+
+            /* Or whatever your preferred video cache URL is */
+            cache: {
+              url: 'https://prebid.adnxs.com/pbc/v1/cache'
+            },
+            userSync: {
+              filterSettings: {
+                iframe: {
+                  bidders: ['openx'],
+                  filter: 'include'
+                },
+                image: {
+                  bidders: '*',
+                  filter: 'include'
+                }
+              }
+            },
+            enableSendAllBids: false
+          });
+
+        });
+      }
+
+      function startAuction() {
+        if (typeof cmgpbjs !== "undefined") {
+          cmgpbjs.que.push(function() {
+            cmgpbjs.requestBids({
+              timeout: 2500,
+              bidsBackHandler: function(bids) {
+                var videoUrl = cmgpbjs.adServers.dfp.buildVideoUrl({
+                  adUnit: videoAdUnit,
+                  params: {
+                    iu: '/137548614/1023174/71134/1023174-71134-video',
+                    description_url: window.location.href, // add dynamic URL - window.location.url
+                    env: 'vp',
+                    impl: 's',
+                    correlator: Date.now(), // add dynamic correlator timestamp
+                    tfcd: '0',
+                    output: 'vast',
+                    sz: '640x480',
+                    unviewed_position_start: '1'
+                  }
+                });
+
+                console.log("Preroll Headerbidding video URL:::::" + videoUrl);
+
+                application = new Application(true, videoUrl);
+              }
+            });
+          });
+        } else { //ad blocker
+          application = new Application(false, "videoUrl");
+        }
+
+      }
+
+      /**
+                        * Handles user interaction and creates the player and ads controllers.
+                        */
+      var Application = function(displayAds, adTagUrl) {
+        this.playing_ = false;
+        this.adsActive_ = false;
+        this.adsDone_ = false;
+        if (typeof displayAds === 'undefined' || displayAds === null) {
+          this.displayAds = true;
+        } else {
+          this.displayAds = displayAds;
+        }
+        this.adTagUrl_ = adTagUrl;
+
+        this.videoPlayer_ = new VideoPlayer();
+        if (this.displayAds && (typeof targeted_state === 'undefined' || watchAdtoUnlockGameIsClicked == "true")) {
+          //console.log("Preload ads for non subscription time games");
+          this.ads_ = new Ads(this, this.videoPlayer_);
+          //Adx Preroll Tag with fallback display Ad The user clicked/tapped - inform the ads controller that this code is being run in a user action thread.
+          this.ads_.initialUserAction();
+          // At the same time, initialize the content player as well. When content is loaded, we'll issue the ad request to prevent it from interfering with the initialization. See
+          // https://developers.google.com/interactive-media-ads/docs/sdks/html5/v3/ads#iosvideo for more information.
+          this.videoPlayer_.preloadContent(this.bind_(this, this.loadAds_));
+          this.adsDone_ = true;
+        } else {
+          //console.log("Do not preload ads for Get Ad Free Games user");
+          removePrerollAndDisplayGame();
+        }
+      };
+
+      Application.prototype.bind_ = function(thisObj, fn) {
+        return function() {
+          fn.apply(thisObj, arguments);
+        };
+      };
+
+      Application.prototype.loadAds_ = function() {
+        this.ads_.requestAds(this.adTagUrl_);
+      };
+
+      /**
+           * Handles video player functionality.
+           */
+      var VideoPlayer = function() {
+        this.contentPlayer = document.getElementById('content123');
+        this.adContainer = document.getElementById('adcontainer');
+        this.videoPlayerContainer_ = document.getElementById('videoplayer');
+        this.width = 640;
+        this.height = 480;
+      };
+
+      VideoPlayer.prototype.preloadContent = function(contentLoadedAction) {
+        contentLoadedAction();
+      };
+      VideoPlayer.prototype.play = function() {
+        this.contentPlayer.play();
+      };
+
+      VideoPlayer.prototype.pause = function() {
+        this.contentPlayer.pause();
+      };
+
+      /**
+           * Shows how to use the IMA SDK to request and display ads.
+           */
+      var Ads = function(application, videoPlayer) {
+        this.application_ = application;
+        this.videoPlayer_ = videoPlayer;
+        this.customClickDiv_ = document.getElementById('customClick');
+        this.contentCompleteCalled_ = false;
+        google.ima.settings.setVpaidMode(google.ima.ImaSdkSettings.VpaidMode.ENABLED);
+        // Call setLocale() to localize language text and downloaded swfs google.ima.settings.setLocale('fr');
+        this.adDisplayContainer_ = new google.ima.AdDisplayContainer(this.videoPlayer_.adContainer, this.videoPlayer_.contentPlayer, this.customClickDiv_);
+        this.adsLoader_ = new google.ima.AdsLoader(this.adDisplayContainer_);
+        this.adsManager_ = null;
+
+        this.adsLoader_.addEventListener(google.ima.AdsManagerLoadedEvent.Type.ADS_MANAGER_LOADED, this.onAdsManagerLoaded_, false, this);
+        this.adsLoader_.addEventListener(google.ima.AdErrorEvent.Type.AD_ERROR, this.onAdError_, false, this);
+      };
+
+      // On iOS and Android devices, video playback must begin in a user action. AdDisplayContainer provides a initialize() API to be called at appropriate time. This should be called when the user clicks or taps.
+      Ads.prototype.initialUserAction = function() {
+        this.adDisplayContainer_.initialize();
+        this.videoPlayer_.contentPlayer.load();
+
+      };
+
+      Ads.prototype.requestAds = function(adTagUrl) {
+        var adsRequest = new google.ima.AdsRequest();
+        adsRequest.adTagUrl = adTagUrl;
+        adsRequest.linearAdSlotWidth = this.videoPlayer_.width;
+        adsRequest.linearAdSlotHeight = this.videoPlayer_.height;
+        adsRequest.nonLinearAdSlotWidth = this.videoPlayer_.width;
+        adsRequest.nonLinearAdSlotHeight = this.videoPlayer_.height;
+        this.adsLoader_.requestAds(adsRequest);
+      };
+
+      Ads.prototype.onAdsManagerLoaded_ = function(adsManagerLoadedEvent) {
+        //console.log('Ads loaded.');
+        var adsRenderingSettings = new google.ima.AdsRenderingSettings();
+        //adsRenderingSettings.loadVideoTimeout = 4000;
+        adsRenderingSettings.restoreCustomPlaybackStateOnAdBreakComplete = true;
+        this.adsManager_ = adsManagerLoadedEvent.getAdsManager(this.videoPlayer_.contentPlayer, adsRenderingSettings);
+        this.adsManager_.setVolume(0);
+        this.processAdsManager_(this.adsManager_);
+      };
+
+      Ads.prototype.processAdsManager_ = function(adsManager) {
+        if (adsManager.isCustomClickTrackingUsed()) {
+          this.customClickDiv_.style.display = 'table';
+        }
+        // Handle errors.
+        adsManager.addEventListener(google.ima.AdErrorEvent.Type.AD_ERROR, this.onAdError_, false, this);
+        var events = [
+          google.ima.AdEvent.Type.ALL_ADS_COMPLETED,
+          google.ima.AdEvent.Type.COMPLETE,
+          google.ima.AdEvent.Type.FIRST_QUARTILE,
+          google.ima.AdEvent.Type.LOADED,
+          google.ima.AdEvent.Type.MIDPOINT,
+          google.ima.AdEvent.Type.STARTED,
+          google.ima.AdEvent.Type.THIRD_QUARTILE,
+          google.ima.AdEvent.Type.USER_CLOSE
+        ];
+        for (var index in events) {
+          adsManager.addEventListener(events[index], this.onAdEvent_, false, this);
+        }
+
+        var initWidth,
+          initHeight;
+
+        initWidth = this.videoPlayer_.width;
+        initHeight = this.videoPlayer_.height;
+
+        adsManager.init(initWidth, initHeight, google.ima.ViewMode.NORMAL);
+
+        adsManager.start();
+      };
+
+      Ads.prototype.onAdEvent_ = function(adEvent) {
+        console.log('Ad event1: ' + adEvent.type);
+        if (adEvent.type == google.ima.AdEvent.Type.LOADED) {
+          var ad = adEvent.getAd();
+          jQuery("#content123").hide();
+        }
+        if (adEvent.type == google.ima.AdEvent.Type.ALL_ADS_COMPLETED) {
+          removePrerollAndDisplayGame();
+        }
+        if (adEvent.type == google.ima.AdEvent.Type.USER_CLOSE) {
+          removePrerollAndDisplayGame();
+        }
+      };
+
+      Ads.prototype.onAdError_ = function(adErrorEvent) {
+        console.log('Ad error: ' + adErrorEvent.getError().toString());
+        if (this.adsManager_) {
+          this.adsManager_.destroy();
+        }
+        //TODO remove the ad slot and display the game this.application_.resumeAfterAd();
+        //TODO UNCOMMENT BELOW removePrerollAndDisplayGame();
+      };
+
+      /*
+          if(typeof Drupal.settings.isSubscriptionActive != "undefined" && Drupal.settings.isSubscriptionActive == false && getCookie('cmg_l') !== null) {
+            subscribeNowAlienClass = "subscribe-now-alien-subscribe";
+          }else if(getCookie('cmg_l') == null) {
+            subscribeNowAlienClass = "subscribe-now-alien";
+          }else if(getCookie('cmg_l') == null && subscriberLeg == 'Default Leg') {
+            subscribeNowAlienClass = "subscribe-now-signup";
+          }
+          */
+
+      var cmatgame_subscriber = getCookie('cmg_sx');
+      var validSubscriber = false;
+      if (typeof cmatgame_subscriber !== 'undefined' && cmatgame_subscriber !== null) {
+        validSubscriber = true;
+      }
+      var application = null;
+      //display Ads to anonymous users the time from 7am to 13pm, display ads to anonymous users  from 13pm to 11:59pm and 00 to 7am only if the user is not from New York city
+      //  TODO -->  Need to add day of the week for school hours logic, day < 6
+      if (validSubscriber) {
+        //valid subscriber do not display Preroll Ads
+        var adTagUrl = "";
+        application = new Application(false, adTagUrl);
+      } else if (getCookie('cmg_schwl') !== null || typeof cmg_no_ads !== 'undefined' || (!validSubscriber && schoolHours) || (!schoolHours && !watchAdtoUnlockGame &&!displayAdblockOverlay )) {   //school hours
+        cmg_gdpr_check = getCookie("GDPR");
+        var cmg_gdpr_first_check = getCookie("GDPR_First");
+        var cmg_gdpr_reject_check = getCookie("GDPR_Reject");
+        //remove ads for first party cookies or reject all cookies is present along with GDPR cookie
+        if (cmg_gdpr_check !== null && (cmg_gdpr_first_check != null || cmg_gdpr_reject_check !== null)) {
+          var adTagUrl = "";
+          application = new Application(false, adTagUrl);
+        } else if (getCookie('cmg_schwl') !== null || typeof cmg_no_ads !== 'undefined') {
+          var adTagUrl = "";
+          application = new Application(false, adTagUrl);
+          jQuery("#videoplayer").remove();
+        } else {
+          /* Playwire video ad unit */
+          var adTagUrl = 'https://pubads.g.doubleclick.net/gampad/ads?iu=/137548614/1023174/71134/1023174-71134-video&description_url=https%3A%2F%2Fwww.coolmathgames.com%2F&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&unviewed_position_start=1';
+          console.log("playwire preroll ad tag :::::" + adTagUrl);
+          jQuery("#afg_preloader").append('<div id="continue-container"><div id="continue-link">Continue in </div><span id="timer_div" style="margin-left:5px;">15</span></div>' + signupContainerBottom);
+          var swf_game_url = jQuery("#swfgame").attr("src");
+          if ((typeof swf_game_url !== 'undefined' || window.location.pathname === "/0-poptropica") && !checkIfFlashIsEnabled()) {
+            application = new Application(false, adTagUrl);
+          } else {
+            /*var prerollUrls = /(0\-parking\-fury\-2|0\-hangman|0\-toy\-defense|0\-iq\-ball|0\-circloo\-2|0\-awesome\-tanks|0\-basketball\-master\-2)/;
+                      if(!prerollUrls.test(window.location.pathname)) {
+                        application = new Application(true,adTagUrl);
+                      } else {  //use headerbidding for basketball master 2 game
+                        startAuction();
+                      } */
+            startAuction();
+
+          }
+
+        }
+        if (!/0-chess/.test(window.location.pathname)) {
+          //setCookie('cmg_active_anonymous_user', 'active', 30*60*1000);
+        }
+      } else if (!validSubscriber && !schoolHours && (watchAdtoUnlockGame || displayAdblockOverlay) && getCookie('cmg_editor') === null) {
+        //if user comes from google dont show the subscription paywall
+        var ref = document.referrer;
+
+        var validReferer = false;
+        if (ref.match("google.com") !== null || ref.match("yahoo.com") !== null || ref.match("bing.com") !== null) {
+          validReferer = true;
+        }
+        var watchPlay = 'Watch a quick video to <br/>unlock the game';
+        var joinNowHeader = 'Become a Member';
+        // use classes in Target to test 'join-now' or 'go-ad-free buttons
+
+        if (!validReferer && watchAdtoUnlockGame) { //subscription paywall for WatchAd to Unlock Game 
+          //block anonymous users for New York City from 0-7am and 13pm to 11:59pm
+          var watchAdHeadline = 'WATCH TO PLAY';
+          var watchAdParagraphText = 'Watch a video to unlock <br> this game.';
+          var watchAdButtonText = 'WATCH NOW';
+          var joinNowHeadline = 'JOIN TO PLAY';
+          var joinNowParagraphText = '$5.99/month membership<br>Cancel Anytime';
+          var joinNowButtonText = 'Buy VIP Now';
+
+          clearInterval(intervalId);
+          jQuery("#afg_container").hide();
+          jQuery(".title-instructions").remove();
+          jQuery(".body-instructions").remove();
+          jQuery(".field-game").append(
+            '<div class="game-overlay-watch-or-join">' +
+              '<div class="row">'+
+                // '<div class="container">'+
+                //   '<h2 class="watch-join-top"><span class="watch-headline">WATCH</span> OR <span class="join-headline">JOIN</span></h2>'+
+                // '</div>'+
+              '</div>'+
+              '<div class="row watch-join-content">'+
+                '<div class="watch-to-play-container">'+
+                  '<div class="watch-to-play"><h3>'+ watchAdHeadline +'</h3><div class="overlay-paragraph-text">'+ watchAdParagraphText +'</div></div>'+
+                  '<div class="btn-container"><a class="btn login" href="javascript:unlock_now_promo_handler();">' + watchAdButtonText + '</a></div>'+
+                '</div>'+
+                '<div class="hr-line">&nbsp;</div>'+
+                '<div class="vip-membership-container">'+
+                  '<div class="watch-to-play"><h3>' + joinNowHeadline + '</h3><div class="overlay-paragraph-text">' + joinNowParagraphText + '</div></div>' +
+                  '<div class="btn-container"><a class="btn sign-up vip-btn" onclick="join_now_promo_handler();" href="/signup/849ef809">' + joinNowButtonText + '</a></div>'+
+                '</div>'+
+              '</div>'+
+            '</div>'
+          );
+
+          jQuery("#videoplayer").hide();
+          //localStorage.setItem("userPlayedGames"+currentMonth+currentYear,userPlayedGames); localStorage.setItem("userPlayedGames",userPlayedGames);
+        } else if(displayAdblockOverlay === true){    //subscription Paywall for Adblock users
+          console.log('ad block overlay detected');  // adblocker detected{
+          // var watchAdButtonText = 'LEARN HOW';
+          var adBlockPremiumHeadline = 'JOIN TO PLAY AD-FREE';
+          var adBlockPremiumText = 'Uninterrupted Gaming<br>$5.99/month membership<br>Cancel Anytime';
+          var adBlockPremiumButton = 'Buy VIP Now';
+          var whiteListHeadline = 'WHITELIST US';
+          var whiteListParagraphText = 'Turn off Ad-block<br>to keep playing';
+          var whiteListButtonText = 'LEARN HOW';
+
+          clearInterval(intervalId);
+          jQuery("#afg_container").hide();
+          jQuery(".title-instructions").remove();
+          jQuery(".body-instructions").remove();
+          jQuery(".field-game").append(
+            '<div class="ad-block-detected">' +
+              '<div class="row">'+
+                '<div class="top-container">'+
+                  '<h3 class="ad-block-detected-headline">AD-BLOCKER DETECTED.</h3>'+
+                  '<h2 class="watch-join-top"><span class="watch-headline">WHITELIST</span> OR <span class="join-headline">JOIN</span></h2>'+
+                '</div>'+
+              '</div>'+
+              // '<div class="row whitelist-content">'+
+                '<div id="HowToWhitelist">' +
+                  '<div class="watch-to-play"><h3>TURN OFF AD-BLOCK</h3></div>' +
+                    '<div class="whitelistInfo"><h2>1</h2> <p><span class="orange-text">Click the Ad Block extension icon</span><br> in the upper right area<br> of your browser window.</p></div>' +
+                    '<div class="whitelistInfo2"><h2>2</h2> <p><span class="orange-text">Choose “Don’t run on this domain”</span> <br>or similar option to disable it for <br> all Coolmath pages.<br>Then refresh the page.</p></div>' +
+                  '</div>' +
+                 // '</div>' +
+                '<div class="hr-line">&nbsp;</div>'+
+                '<div class="vip-membership-container">'+
+                  '<div class="watch-to-play"><h3>' + adBlockPremiumHeadline + '</h3><div class="overlay-paragraph-text">' + adBlockPremiumText + '</div></div>' +
+                  '<div class="btn-container"><a class="btn sign-up vip-btn" onclick="join_now_promo_handler();" href="signup/791c674d">' + adBlockPremiumButton + '</a></div>'+
+                '</div>'+
+              '</div>'+
+            '</div>'
+          );
+        } else {
+          var adTagUrl = "";
+          application = new Application(false, adTagUrl);
+          localStorage.setItem("userPlayedGames",userPlayedGames);//lifetime limit
+        }
+      }
+    </script><div id="continue-container"><div id="continue-link"></div><span id="timer_div" style="margin-left:5px;"><a href="javascript:removePrerollAndDisplayGame();"><div class="continue-link-yellow">Continue to Game ▶</div></a></span></div><div class="signup-container-bottom"><a href="https://www.coolmathgames.com/signup/2efa4bc4" onclick="preroll_signup_bottom_handler();"> Skip All Ads, Join Now</a></div>
+  </div>
+  <script type="text/javascript">
+    function removeAdSwf() {
+      removePrerollAndDisplayGame();
+    }
+    function noAdsReturned() {
+      // enable_preroll_fallback_ads is false
+      removePrerollAndDisplayGame();
+    }
+    function unlock_now_promo_handler() {
+      jQuery(".subscription-overlay").remove();
+      jQuery(".game-overlay-watch-or-join").remove();
+      jQuery("#afg_container").show();
+      jQuery("#videoplayer").show();
+      jQuery("#afg_preloader").append('<div id="continue-container"><div id="continue-link">Continue in </div><span id="timer_div" style="margin-left:5px;">15</span></div>' + signupContainerBottom);
+      displayPrerollTimer();
+      watchAdtoUnlockGameIsClicked = true;
+      startAuction();
+      trackEvent('Watch Ad to Unlock Game', 'Watch ad to unlock game clicked', document.title);
+    }
+  </script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+    cmatgame_subscriber = getCookie("cmg_sx");
+    //check if school is whitelisted
+    if (cmg_school_whitelisted !== null && getCookie("cmg_schwl") !== null) {
+      cmg_school_whitelisted = getCookie("cmg_schwl");
+      cmatgame_subscriber = getCookie("cmg_schwl");
+    } else if (cmg_school_whitelisted === null && typeof cmg_no_ads_debug !== "undefined" && cmg_no_ads_debug) {
+      //console.log("KY school hours");
+      cmatgame_subscriber = cmg_no_ads_debug;
+    }
+    if (cmg_gdpr_check !== null) {
+      var cmg_gdpr_all_check = getCookie("GDPR_All"); //GDPR_All cookie is set when user selects accept all cookies in the GDPR overlay
+      var cmg_gdpr_first_check = getCookie("GDPR_First");
+      var cmg_gdpr_reject_check = getCookie("GDPR_Reject");
+      if (cmg_gdpr_all_check == null && (cmg_gdpr_first_check != null || cmg_gdpr_reject_check != null)) { //user either accepted only first party cookies or rejected all cookies so do not display ads
+        cmatgame_subscriber = getCookie("GDPR");
+      } else if (cmg_gdpr_all_check == null && cmg_gdpr_first_check == null && cmg_gdpr_reject_check == null) { //user is coming for the first time from one of the GDPR countries so do not display ads
+        cmatgame_subscriber = getCookie("GDPR");
+      }
+    }
+    if (getCookie('cmg_editor') !== null) { //display game for editors
+      removePrerollAndDisplayGame();
+    }
+
+    //VooxeVideo
+    if (jQuery('#videoContainer').length && typeof VooxeVideo === 'undefined') {
+      trackEvent('Video Walkthrough', 'Walkthrough video not found', document.title);
+      jQuery('#videoContainer').hide();
+    }
+  })
+</script>
+
+		
+       <div class="field field--name-field-instructions field--type-text-with-summary field--label-above field__items"><div class="title-instructions field__label">Instructions</div><div class="body-instructions field__item"> <p>Build towers and walls to claim territory and level up. Destroy your opponents and conquer the map!</p>
+
+<p>&nbsp;</p>
+
+<p>Move: WASD</p>
+
+<p>Build: Right Click or Space</p>
+
+<p>Aim: Mouse cursor or arrow keys</p>
+
+<p>Shoot: Left click or UP</p>
+
+<p>&nbsp;</p>
+
+<p>Not sure what to do? Some tips to get started:</p>
+
+<p>&nbsp;</p>
+
+<ol>
+	<li style="margin-left: 40px;"><strong>Build Walls:&nbsp;</strong>Upgrade your copter's abilities by gaining XP and levelling up. You gain XP by building walls and controlling territory.&nbsp;</li>
+	<li style="margin-left: 40px;"><strong>Create &amp; Destroy:&nbsp;</strong>Earn points by controlling the map, busting walls, and blasting other copters.&nbsp;</li>
+	<li style="margin-left: 40px;"><strong>Level Up:&nbsp;</strong>Reach level 20 to earn a special ability. Try a few and figure out which one you like best!</li>
+	<li style="margin-left: 40px;"><strong>Keep Going:&nbsp;</strong>When your copter is destroyed, you lose some XP and levels, but you keep most of your ability points.</li>
+</ol>
+</div></div>
+
+		
+		
+      </div>
+    </article>
+  </div>
+    </div>
+  </div>
+
+<div class="views-element-container block block-views block-views-blockgame-queues-block-2" id="block-views-block-game-queues-block-2">
+  
+      <h2 class="common-title">
+      <span class="title-with-button">Coolmath Top Picks</span>
+    </h2>
+    
+      <div class="view-content">
+      <div><div class="pane-content js-view-dom-id-8fc085f5cc0777651efc4e836dd5ef2f1c6e553665058d8864cdbfa9a34d383f">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-chess">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/chess-icon.png" width="83" height="50" alt="Chess Game" title="Chess" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Chess</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Checkmate! Play the classic game of strategy. You can challenge the computer, a friend, or join a match against another online player.</p></div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-poptropica">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/poptropica-game-logo.png" width="83" height="50" alt="Poptropica Game" title="Poptropica" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Poptropica</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Hop in your hot air balloon and prepare for adventure! Solve a whole new quest on every island.</p>
+</div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-candy-jump">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/candy-jump-game-logo.png" width="83" height="50" alt="Candy Jump Game" title="Candy Jump" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Candy Jump</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Wait...Not yet...Go! Bounce the candy at the perfect time to get through the moving obstacles.</p>
+</div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-snake">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/snake-game-logo.png" width="83" height="50" alt="Snake Game" title="Snake" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Snake</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Ever played the classic game Snake? Slither around and eat the apples to grow your snake as long as possible. But don't hit the wall, or eat your own tail!</p>
+</div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-basket-and-ball">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/basket-and-ball-logo.png" width="83" height="50" alt="Basket and Ball Game" title="Basket and Ball" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Basket and Ball</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Activate the power bounce! Can you find a way over the spikes and past the guards to&nbsp;jump into Basket?</p></div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-handulum">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/handulum-logo.png" width="83" height="50" alt="Handulum+ Game" title="Handulum+" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Handulum+</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Swing your way through each challenging course without hitting anything. How many tries will it take you?</p></div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-space-is-key-ultimate-challenge">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/space-is-key-ultimate-challenge-logo.png" width="83" height="50" alt="Space is Key: Ultimate Challenge Game" title="Space is Key: Ultimate Challenge" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Space is Key: Ultimate Challenge</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Take a deep breath&nbsp;and get your finger ready! Can you pass the ultimate one-button challenge?</p></div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-divide">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/game-logo-divide.gif" width="83" height="50" alt="Divide Game" title="Divide" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Divide</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>You've got a limited number of slices to cut the wood into the correct number of pieces. Be precise when you slice!</p></div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-defly-io">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/defly-io-game-logo.png" width="83" height="50" alt="Defly.io Game" title="Defly.io" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Defly.io</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Hop in your helicopter and join this strategic multiplayer game. Specialize your copter, build a base, and conquer the map!</p>
+</div>
+    </div>
+  </div>
+  <div class="game-item">
+    <div class="game-link-wrapper">
+	  <a href="https://www.coolmathgames.com/0-traffic-mania">
+	    <div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/traffic-mania-game-logo.png" width="83" height="50" alt="Traffic Mania Game" title="Traffic Mania" typeof="foaf:Image">
+
+</div>
+		<h3 class="game-title">Traffic Mania</h3>
+	  </a>
+    </div>
+    <div class="game-item-description">
+	  <div class="field-body"><p>Hey you, stop!&nbsp;And you, drive!&nbsp;Wait...no... you're going to crash! Take control of the roads to keep traffic moving. One mistake might cause&nbsp;a 10-car pileup.</p></div>
+    </div>
+  </div>
+  </div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+                  </div>
+                </div>
+              </div>
+                                <div>
+    
+<div id="block-adsbottom-otherpage-728x90" class="block block-cmatgame-core block-adsbottom-otherpage-728x90">
+  
+    
+      <div class="view-content">
+      <div class="panel-pane pane-block pane-cmatgame-advertisement-cm-g-otherpages-728x90-footer"><div class="ad-wrapper"><!-- 728 x 90 BTF Desktop --><div data-pw-desk="leaderboard_btf"></div></div></div>
+    </div>
+  </div>
+
+  </div>
+
+                          </div>
+          </section>
+        </main>
+                  <div class="main-aside">
+            <aside class="section" role="complementary">
+              <div class="inside">
+                  <div>
+    <div id="block-nodepagespromomerchstore" class="block block-block-content block-block-contentbba33380-2724-4eba-99f5-ba8dde3a54f4">
+    
+        
+              <div class="field field--name-body field--type-text-with-summary field--label-hidden field__items">
+                <div class="field__item">
+        <div style="margin-top:20px;"><a class="cmg-right-rail-signup-promo-2" href="https://www.coolmathgames.com/signup/a1ca2f3b">Right Rail signup promo</a></div>
+<script type="text/javascript">
+jQuery('a.cmg-gear-promo').click(function(e){
+  e.preventDefault();
+  merchLinkHhandler(e);
+});
+function merchLinkHhandler(e) {
+  e.preventDefault();
+  url = 'https://www.teepublic.com/user/coolmathgames';
+  if(typeof __gaTracker !== "undefined") { 
+    __gaTracker('send', { hitType: 'event', eventCategory: 'Coolmath Gear Promo', eventAction: 'Merch Store Link Clicked', eventLabel: document.title, eventValue: '0' }); 
+  }
+  window.open(url,'_cmg_merch');
+}
+</script>
+            </div>
+          </div>
+<div class="right-rail-promo"></div>
+      </div>
+
+<div id="block-adsrighttop-otherpage-300x250" class="block block-cmatgame-core block-adsrighttop-otherpage-300x250">
+  
+    
+      <div class="view-content">
+      <div class="panel-pane pane-block pane-cmatgame-advertisement-cm-g-otherpages-300x250-top other-pages-300x250"><div class="ad-wrapper"><!-- 300 x 250 ATF Desktop --><div data-pw-desk="med_rect_atf"></div></div></div>
+    </div>
+  </div>
+
+<div id="block-adsrightcenter-otherpage-300x250" class="block block-cmatgame-core block-adsrightcenter-otherpage-300x250">
+  
+    
+      <div class="view-content">
+      <div class="panel-pane pane-block pane-cmatgame-advertisement-cm-g-otherpages-300x250-center other-pages-300x250"><div class="ad-wrapper"><!-- 300 x 250 ATF Desktop --><div data-pw-desk="med_rect_atf"></div></div></div>
+    </div>
+  </div>
+<div id="block-abtestpromogamepages" class="block block-block-content block-block-content49817bcd-8dea-4bb1-ab0c-dcaef18ca9e9">
+    
+        
+              <div class="field field--name-body field--type-text-with-summary field--label-hidden field__items">
+                <div class="field__item">
+        &nbsp;
+            </div>
+          </div>
+<div class="right-rail-promo"></div>
+      </div>
+<div id="block-rightrailblockallgamesaz" class="block block-block-content block-block-contentdb7b8c07-768c-46b3-8588-bb5c7075ed3f">
+    
+        
+              <div class="field field--name-body field--type-text-with-summary field--label-hidden field__items">
+                <div class="field__item">
+        <div class="aside-link-title"><a href="https://www.coolmathgames.com/1-complete-game-list?rightrail">All Games A-Z</a></div>
+
+            </div>
+          </div>
+<div class="right-rail-promo"></div>
+      </div>
+
+  </div>
+
+              </div>
+                              <div class="promo clearfix">
+                  <div class="inside">
+                      <div>
+    
+<div id="block-rightrailpromogames" class="block block-cmatgame-core block-rightrailpromogames">
+  
+    
+      <div class="view-content">
+      <div class="panel-pane pane-views-panes pane-queues-view-rightrail-games-promo"><h2 class="pane-title"><a href="https://www.coolmathgames.com/1-aiming-games">Aiming Games</a></h2><div class="node-game"><a href="https://www.coolmathgames.com/0-archery-world-tour"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/archery-world-tour.png" width="83" height="50" alt="Archery World Tour Game" title="Archery World Tour" typeof="Image">
+
+</div><h3 class="game-title">Archery World Tour</h3></a></div><div class="node-game"><a href="https://www.coolmathgames.com/0-arcade-golf-neon"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/arcade-golf-neon-game-logo.png" width="83" height="50" alt="Arcade Golf Neon Game" title="Arcade Golf Neon" typeof="Image">
+
+</div><h3 class="game-title">Arcade Golf Neon</h3></a></div><div class="node-game"><a href="https://www.coolmathgames.com/0-basketball-master-2"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/basketball-master-2-game-logo.png" width="83" height="50" alt="Basketball Master 2 Game" title="Basketball Master 2" typeof="Image">
+
+</div><h3 class="game-title">Basketball Master 2</h3></a></div><div class="node-game"><a href="https://www.coolmathgames.com/0-iq-ball"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/game-logo-iq-ball.gif" width="83" height="50" alt="IQ Ball Game" title="IQ Ball" typeof="Image">
+
+</div><h3 class="game-title">IQ Ball</h3></a></div><div class="node-game"><a href="https://www.coolmathgames.com/0-raft-wars"><div class="field-image"><img src="./Defly.io - Play it now at CoolmathGames.com_files/raft-wars-game-logo.png" width="83" height="50" alt="Raft Wars Game" title="Raft Wars" typeof="Image">
+
+</div><h3 class="game-title">Raft Wars</h3></a></div></div>
+    </div>
+  </div>
+
+<div id="block-adsrightbottom-otherpage-160x600" class="block block-cmatgame-core block-adsrightbottom-otherpage-160x600">
+  
+    
+      <div class="view-content">
+      <div class="panel-pane pane-block pane-cmatgame-advertisement-cm-g-otherpages-160x600-bottom other-pages-160x600"><div class="ad-wrapper"><!-- 160 x 600 Skyscraper Desktop --><div data-pw-desk="sky_btf"></div></div></div>
+    </div>
+  </div>
+
+  </div>
+
+                  </div>
+                </div>
+                          </aside>
+          </div>
+              </div>
+    </div>
+  </div>
+  <footer class="main-footer">
+    <div class="item-list">
+      <ol>
+                  <li>&nbsp;</li>
+          <li>&nbsp;</li>
+                <li>
+          <div class="pane-bean-footer-pivacy-policy">
+            <div class="link-with-body-title">
+              <a href="https://www.coolmathgames.com/privacyp">Coolmath games privacy policy</a>
+            </div>
+            <div class="field-text-block">
+              <p>If you believe that your own copyrighted content is on our Site without your permission, please follow this&nbsp;<a href="http://coolmath.com/copyright-infringement-notice-procedure">Copyright Infringement Notice procedure</a>.</p>
+            </div>
+          </div>
+        </li>
+                  <li>
+              <div>
+    <nav role="navigation" aria-labelledby="block-desktopfootermenu-menu" id="block-desktopfootermenu">
+            
+  <h2 class="visually-hidden" id="block-desktopfootermenu-menu">Desktop Footer menu</h2>
+  
+
+        
+      <div class="panel-pane pane-menu-tree pane-menu-desktop-footer-menu">
+      <div class="menu-name-menu-desktop-footer-menu">
+                          <ul class="footer-menu">
+                                                  <li class="menu__item is-expanded expanded footer-menu-column-0">
+                                            <span class="menu__link nolink">COOLMATHGAMES.COM</span>
+                                                                  <ul class="footer-menu">
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/about-us" data-drupal-link-system-path="node/9901">About Us</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/terms-use" data-drupal-link-system-path="node/9906">Terms of Use</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/subscription-faq" data-drupal-link-system-path="node/10921">Subscription FAQ</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/contact-us-about-subscriptions" data-drupal-link-system-path="node/11046">Subscription Support</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/contact-us" data-drupal-link-system-path="node/12581">CONTACT US</a>
+                                        </li>
+                  </ul>
+            
+                          </li>
+                                                  <li class="menu__item is-expanded expanded footer-menu-column-1">
+                                            <span class="menu__link nolink">BROWSE GAMES</span>
+                                                                  <ul class="footer-menu">
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-strategy-games" title="Strategy Games" data-drupal-link-system-path="taxonomy/term/6">Strategy Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-skill-games" title="Skill Games" data-drupal-link-system-path="taxonomy/term/46">Skill Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-number-games" title="Number Games" data-drupal-link-system-path="taxonomy/term/151">Number Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-logic-games" title="Logic Games" data-drupal-link-system-path="taxonomy/term/91">Logic Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-memory-games" title="Memory Games" data-drupal-link-system-path="taxonomy/term/181">Memory Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-classic-games" title="Classic Games" data-drupal-link-system-path="taxonomy/term/211">Classic Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/0-jigsaw-puzzles" title="Jigsaw Puzzles" data-drupal-link-system-path="0-jigsaw-puzzles">Jigsaw Puzzles</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-science-games" title="Science Games" data-drupal-link-system-path="taxonomy/term/626">Science Games</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmathgames.com/1-geography-games" title="Geography Games" data-drupal-link-system-path="taxonomy/term/206">Geography Games</a>
+                                        </li>
+                  </ul>
+            
+                          </li>
+                                                  <li class="menu__item is-expanded expanded footer-menu-column-2">
+                                            <span class="menu__link nolink">COOLMATH.COM</span>
+                                                                  <ul class="footer-menu">
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/prealgebra" title="Pre-Algebra Lessons">Pre-Algebra Lessons</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/algebra" title="Algebra Lessons">Algebra Lessons</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/precalculus-review-calculus-intro" title="Pre-Calculus Lessons">Pre-Calculus Lessons</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://coolmath.com/reference/online-math-dictionary" title="Math Dictionary">Math Dictionary</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/algebra/08-lines" title="Lines">Lines</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/prealgebra/00-factors-primes" title="Factors and Primes">Factors and Primes</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/prealgebra/02-decimals" title="Decimals">Decimals</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath.com/prealgebra/06-properties" title="Properties">Properties</a>
+                                        </li>
+                  </ul>
+            
+                          </li>
+                                                  <li class="menu__item is-expanded expanded footer-menu-column-3">
+                                            <span class="menu__link nolink">MORE FROM COOLMATH</span>
+                                                                  <ul class="footer-menu">
+                                                      <li>
+                                                            <a href="https://www.coolmath4kids.com/" title="Coolmath4Kids">Coolmath4Kids</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath4kids.com/manipulatives/ten-frame" title="Ten Frame Manipulative">Ten Frame Manipulative</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath4kids.com/manipulatives/base-ten-blocks" title="Base Ten Blocks Manipulative">Base Ten Blocks Manipulative</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath4kids.com/manipulatives/number-line" title="Number Line Manipulative">Number Line Manipulative</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath4kids.com/manipulatives/pattern-blocks" title="Pattern Blocks Manipulative">Pattern Blocks Manipulative</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="https://www.coolmath4kids.com/quizzes" title="Math Quizzes">Math Quizzes</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="http://www.coolmath4teachers.com/" title="Coolmath4Teachers">Coolmath4Teachers</a>
+                                        </li>
+                                                      <li>
+                                                            <a href="http://www.coolmath4parents.com/" title="Coolmath4Parents">Coolmath4Parents</a>
+                                        </li>
+                  </ul>
+            
+                          </li>
+                  </ul>
+                  </div>
+    </div>
+  
+
+  </nav>
+
+  </div>
+
+          </li>
+                <li>
+          <div class="copyright-wrapper">
+            <p>© 2020 Coolmath.com LLC. All Rights Reserved.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </footer>
+</div>
+
+  </div>
+
+          
+          <script src="./Defly.io - Play it now at CoolmathGames.com_files/js_a1ON6CqJILrEqHXZW-NRskpqbM19SQ19HIp6J9r4KyI.js.download"></script>
+
+            
+            <script type="text/javascript">
+              if (jQuery('body').hasClass('node-type-game')) {
+                var offset = 420;
+                var offsetMillis = offset * 60 * 1000;
+                var today = new Date();
+                var millis = today.getTime();
+                var timeZoneOffset = (today.getTimezoneOffset() * 60 * 1000);
+                var pst = millis - offsetMillis;
+                var currentDate = new Date(pst);
+                var dayarray = [
+                  'Sunday',
+                  'Monday',
+                  'Tuesday',
+                  'Wednesday',
+                  'Thursday',
+                  'Friday',
+                  'Saturday'
+                ];
+                var montharray = [
+                  'Jan.',
+                  'Feb.',
+                  'Mar.',
+                  'Apr.',
+                  'May.',
+                  'Jun.',
+                  'Jul.',
+                  'Aug.',
+                  'Sep.',
+                  'Oct.',
+                  'Nov.',
+                  'Dec.'
+                ];
+                var displaydate = dayarray[currentDate.getDay()] + ", " + montharray[currentDate.getMonth()] + " " + ordinal_suffix_of(currentDate.getDate());
+                jQuery('.node-type-game .global-wrapper-content .dailygames .common-title').html(
+                  "<div class='daily-games-text'><img src='/themes/custom/cmatgame/images/bird.png' alt='daily games' class='daily-games-header' /></div><span class='dailygamesdate'>" + displaydate + "</span>"
+                );
+              }
+            </script>
+            <script id="profitwell-js" data-pw-auth="112ca5554aa368c7638df5177116c556">
+              (function(i,s,o,g,r,a,m){i[o]=i[o]||function(){(i[o].q=i[o].q||[]).push(arguments)};
+              a=s.createElement(g);m=s.getElementsByTagName(g)[0];a.async=1;a.src=r+'?auth='+
+              s.getElementById(o+'-js').getAttribute('data-pw-auth');m.parentNode.insertBefore(a,m);
+              })(window,document,'profitwell','script','https://public.profitwell.com/js/profitwell.js');
+              profitwell('start', {});
+            </script>
+          
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeMetricsController0" allowpaymentrequest="true" src="./Defly.io - Play it now at CoolmathGames.com_files/outer.html" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><iframe id="pw_user_data" src="./Defly.io - Play it now at CoolmathGames.com_files/iframe.html" style="display: none; height: 0px; width: 0px; position: fixed; bottom: -99999px;"></iframe><script type="text/javascript" src="./Defly.io - Play it now at CoolmathGames.com_files/yi.js(1).download"></script><div id="adBanner" class="adLeaderboard adBanner" style="background-color: transparent; height: 1px; width: 1px; position: fixed; bottom: -10px; left: -10px;">&nbsp;</div></body><iframe sandbox="allow-scripts allow-same-origin" id="9f79e6de2f012e" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="./Defly.io - Play it now at CoolmathGames.com_files/pd.html">
+    </iframe></html>
