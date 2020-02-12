@@ -33,7 +33,15 @@
     function startGame() {
       gameLoop();
     }
+    var loops = 0;
     function gameLoop() {
+      loops++;
+      if(loops < 12) {
+        setTimeout(gameLoop, 3000);
+      }
+      else {
+        alert("Game over!");
+      }
       alert("Game over!");
       setTimeout(gameLoop, 3000);
     }
