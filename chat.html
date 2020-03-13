@@ -18,7 +18,7 @@
    localStorage.storedchat = document.getElementById("chat").innerHTML;
   }
   function loadchat() {
-   document.getElementById("chat").innerHTML = localStorage.storedList;
+   document.getElementById("chat").innerHTML = localStorage.storedchat;
    for(var i = 0; i < list.children.length; i++) {
     list.children[i].onclick = removeItem;
    }
@@ -54,7 +54,7 @@
  </div>
  <div class="app">
   <p style="font-size:18px; font-style:bold;">Chat Below</p>
-  <input type="text" id="box" value="Type here to add task"/>
+  <input type="text" id="box" value="Type here to chat"/>
   <br/>
   <input type="button" value="Add item" onclick="addItem();"/>
   <br/>
@@ -62,7 +62,7 @@
  </div>
  <script>
   if(localStorage.storedchat) {
-   loadList();
+   loadchat();
   }
  </script>
 </body>
