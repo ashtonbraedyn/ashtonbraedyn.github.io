@@ -55,32 +55,6 @@
 <textarea id="title" type="text "rows="20" cols="20" onkeyup="Allow()" placeholder="Write a comment......"></textarea>
 <input type="button" value="Post" onclick="insert();" style="width:120px;"/></form>
 </div>
-<div id="display"></div>
-<script type="text/javascript">
-var titles = [];
-var titleInput = document.getElementById("title");
-var messageBox = document.getElementById("display");
-function Allow()
-{
-if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
-{
-user.title.value="";
-alert("Please Enter only letters while commenting");
-}
-window.location.reload()
-}
-function insert() {
-titles.push(titleInput.value);
-clearAndShow();
-}
-function clearAndShow ()
-{
-titleInput.value = "";
-messageBox.innerHTML = "";
-messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-}
-</script>
-    
     <p><a href = "mailto: 28asmith@bcpsk12.net">28asmith@bcpsk12.net</a> for Ashton Smith and <a href = "mailto: 28binthammavong@bcpsk12.net">28binthammavong@bcpsk12.net</a> for Breadyn Inthammavong.</p>
   </body>
  </html>
